@@ -2,67 +2,161 @@
 # and creates one virtual phone per WhatsApp number, each with Google Play so the
 # official WhatsApp app can be installed from the Play Store.
 #
+# Packages are downloaded straight from Google's official package list
+# (dl.google.com) and checked against Google's checksums, so this does not depend
+# on sdkmanager/avdmanager, whose command line keeps changing.
+#
 # Safe to run again: finished steps are skipped, and asking for more phones only
 # adds the missing ones.
 
 param(
     [int]$Phones = 0,
-    [string]$SystemImage = 'system-images;android-34;google_apis_playstore;x86_64',
+    [int]$ApiLevel = 34,
     [int]$RamMB = 2048,
     [string]$StorageSize = '8G'
 )
 
 . "$PSScriptRoot\common.ps1"
 
-function Get-CmdlineToolsArchive {
-    # Read the download link straight from Google's official package list so we
-    # always get the current version together with its checksum.
-    $base = 'https://dl.google.com/android/repository/'
-    try {
-        $xmlFile = Join-Path $Downloads 'repository2-3.xml'
-        Invoke-Download ($base + 'repository2-3.xml') $xmlFile
-        $xml = New-Object System.Xml.XmlDocument
-        $xml.Load($xmlFile)
-        $pkg = $xml.SelectSingleNode("//*[local-name()='remotePackage' and @path='cmdline-tools;latest']")
-        foreach ($archive in $pkg.SelectNodes(".//*[local-name()='archive']")) {
-            $os = $archive.SelectSingleNode("*[local-name()='host-os']")
-            if ($os -and $os.InnerText -eq 'windows') {
-                $complete = $archive.SelectSingleNode("*[local-name()='complete']")
-                $checksum = $complete.SelectSingleNode("*[local-name()='checksum']")
-                $algo = $checksum.GetAttribute('type')
-                if (-not $algo) { $algo = 'sha1' }
-                return @{
-                    Url       = $base + $complete.SelectSingleNode("*[local-name()='url']").InnerText
-                    Checksum  = $checksum.InnerText
-                    Algorithm = $algo.ToUpper()
-                }
-            }
+$RepoUrl   = 'https://dl.google.com/android/repository/'
+$SysImgTag = 'google_apis_playstore'
+$Abi       = 'x86_64'
+$SysImgRel = "system-images\android-$ApiLevel\$SysImgTag\$Abi"
+$SysImgDir = Join-Path $Sdk $SysImgRel
+
+function Get-GoogleList([string]$BaseUrl, [string]$Prefix) {
+    # Google publishes several versions of each list; take the newest one available.
+    foreach ($version in 3, 2, 1) {
+        $file = Join-Path $Downloads "$Prefix$version.xml"
+        try {
+            Invoke-Download "$BaseUrl$Prefix$version.xml" $file
+            $xml = New-Object System.Xml.XmlDocument
+            $xml.Load($file)
+            return $xml
+        } catch {
+            Write-Warn "List version $version not available, trying an older one."
         }
-        throw 'Windows package not found in the list.'
-    } catch {
-        Write-Warn "Could not read Google's package list ($($_.Exception.Message)). Using a known version."
-        return @{ Url = $base + 'commandlinetools-win-11076708_latest.zip'; Checksum = $null; Algorithm = $null }
     }
+    throw "Could not read Google's package list from $BaseUrl. Check your internet and run Setup again."
 }
 
-function Set-IniValues([string]$File, [hashtable]$Values) {
-    $lines = New-Object System.Collections.Generic.List[string]
-    if (Test-Path $File) { foreach ($l in Get-Content $File) { $lines.Add($l) } }
-    foreach ($key in $Values.Keys) {
-        $entry = "$key=$($Values[$key])"
-        $pattern = '^\s*' + [regex]::Escape($key) + '\s*='
-        $idx = -1
-        for ($i = 0; $i -lt $lines.Count; $i++) {
-            if ($lines[$i] -match $pattern) { $idx = $i; break }
+function Find-Archive($Xml, [string]$PackagePath, [string]$BaseUrl) {
+    # Newest stable (channel-0) build of the package for 64-bit Windows.
+    $best = $null
+    $bestRevision = [long]-1
+    foreach ($pkg in $Xml.SelectNodes("//*[local-name()='remotePackage' and @path='$PackagePath']")) {
+        $channel = $pkg.SelectSingleNode("*[local-name()='channelRef']")
+        if ($channel -and $channel.GetAttribute('ref') -ne 'channel-0') { continue }
+        $revision = [long]0
+        $revNode = $pkg.SelectSingleNode("*[local-name()='revision']")
+        foreach ($part in 'major', 'minor', 'micro') {
+            $node = $null
+            if ($revNode) { $node = $revNode.SelectSingleNode("*[local-name()='$part']") }
+            $value = 0
+            if ($node) { $value = [long]$node.InnerText }
+            $revision = $revision * 10000 + $value
         }
-        if ($idx -ge 0) { $lines[$idx] = $entry } else { $lines.Add($entry) }
+        foreach ($archive in $pkg.SelectNodes(".//*[local-name()='archive']")) {
+            $os  = $archive.SelectSingleNode("*[local-name()='host-os']")
+            $cpu = $archive.SelectSingleNode("*[local-name()='host-arch']")
+            if ($os -and $os.InnerText -ne 'windows') { continue }
+            if ($cpu -and $cpu.InnerText -notin 'x64', 'x86_64') { continue }
+            if ($revision -le $bestRevision) { continue }
+            $complete = $archive.SelectSingleNode("*[local-name()='complete']")
+            $checksum = $complete.SelectSingleNode("*[local-name()='checksum']")
+            $algorithm = $checksum.GetAttribute('type')
+            if (-not $algorithm) { $algorithm = 'sha1' }
+            $licenseId = ''
+            $licenseRef = $pkg.SelectSingleNode("*[local-name()='uses-license']")
+            if ($licenseRef) { $licenseId = $licenseRef.GetAttribute('ref') }
+            $licenseText = ''
+            $licenseNode = $Xml.SelectSingleNode("//*[local-name()='license' and @id='$licenseId']")
+            if ($licenseNode) { $licenseText = $licenseNode.InnerText }
+            $best = @{
+                Url         = $BaseUrl + $complete.SelectSingleNode("*[local-name()='url']").InnerText
+                Checksum    = $checksum.InnerText.Trim()
+                Algorithm   = $algorithm.ToUpper()
+                LicenseId   = $licenseId
+                LicenseText = $licenseText
+            }
+            $bestRevision = $revision
+        }
     }
-    [System.IO.File]::WriteAllLines($File, $lines.ToArray())
+    if (-not $best) { throw "Package '$PackagePath' was not found in Google's package list." }
+    return $best
+}
+
+function Install-GooglePackage($Archive, [string]$Target, [string]$MarkerFile, [string]$Label) {
+    $zip = Join-Path $Downloads 'package.zip'
+    Invoke-Download $Archive.Url $zip
+    $hash = (Get-FileHash $zip -Algorithm $Archive.Algorithm).Hash
+    if ($hash -ne $Archive.Checksum) {
+        throw "$Label download is damaged (checksum mismatch). Run Setup again."
+    }
+    Write-Ok "Checksum verified ($($Archive.Algorithm))."
+    Write-Host '    Unpacking...'
+    $tmp = Join-Path $Downloads 'unpack'
+    Expand-Zip $zip $tmp
+    Remove-Item $zip -Force
+    # The zip holds one top folder (emulator\, platform-tools\, x86_64\ ...); find it by a file it must contain.
+    $marker = Get-ChildItem $tmp -Recurse -Filter $MarkerFile |
+        Sort-Object { $_.FullName.Split('\').Count } |
+        Select-Object -First 1
+    if (-not $marker) { throw "$Label download looks wrong ($MarkerFile is missing)." }
+    if (Test-Path $Target) { Remove-Item $Target -Recurse -Force }
+    New-Item -ItemType Directory -Force -Path (Split-Path $Target) | Out-Null
+    Move-Item $marker.DirectoryName $Target
+    Remove-Item $tmp -Recurse -Force
+    Write-Ok "$Label installed."
 }
 
 function Test-Webcam {
     try { return [bool](Get-PnpDevice -Class Camera, Image -Status OK -ErrorAction Stop) }
     catch { return $false }
+}
+
+function New-Phone([int]$Number, [string]$BackCamera, [int]$Cores) {
+    $name = "$PhonePrefix$Number"
+    $avdDir = Join-Path $AvdHome "$name.avd"
+    New-Item -ItemType Directory -Force -Path $avdDir | Out-Null
+    $config = [ordered]@{
+        'AvdId'                   = $name
+        'avd.ini.displayname'     = "WhatsApp Phone $Number"
+        'avd.ini.encoding'        = 'UTF-8'
+        'PlayStore.enabled'       = 'true'
+        'abi.type'                = $Abi
+        'hw.cpu.arch'             = $Abi
+        'hw.cpu.ncore'            = $Cores
+        'hw.ramSize'              = $RamMB
+        'vm.heapSize'             = 256
+        'image.sysdir.1'          = "$SysImgRel\"
+        'tag.id'                  = $SysImgTag
+        'tag.display'             = 'Google Play'
+        'target'                  = "android-$ApiLevel"
+        'hw.lcd.width'            = 1080
+        'hw.lcd.height'           = 2400
+        'hw.lcd.density'          = 420
+        'hw.keyboard'             = 'yes'
+        'hw.gpu.enabled'          = 'yes'
+        'hw.gpu.mode'             = 'auto'
+        'hw.camera.back'          = $BackCamera
+        'hw.camera.front'         = 'emulated'
+        'hw.audioInput'           = 'yes'
+        'hw.audioOutput'          = 'yes'
+        'hw.sdCard'               = 'no'
+        'disk.dataPartition.size' = $StorageSize
+        'fastboot.forceColdBoot'  = 'no'
+        'showDeviceFrame'         = 'no'
+    }
+    $lines = [string[]]($config.GetEnumerator() | ForEach-Object { "$($_.Key)=$($_.Value)" })
+    [System.IO.File]::WriteAllLines((Join-Path $avdDir 'config.ini'), $lines)
+    # The pointer file is written last: its presence means the phone is complete.
+    [System.IO.File]::WriteAllLines((Join-Path $AvdHome "$name.ini"), [string[]]@(
+        'avd.ini.encoding=UTF-8',
+        "path=$avdDir",
+        "path.rel=avd\$name.avd",
+        "target=android-$ApiLevel"
+    ))
 }
 
 function Show-AccelHelp {
@@ -90,6 +184,7 @@ if ($arch -ne 'AMD64') {
 }
 
 $ramGB = [math]::Round((Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory / 1GB)
+$maxOpen = [math]::Max(1, [math]::Floor(($ramGB - 4) / 3))
 if ($ramGB -lt 8) {
     Write-Warn "This PC has $ramGB GB of RAM. Run only one virtual phone at a time."
 }
@@ -109,91 +204,74 @@ if ($freeGB -lt $needGB) {
 
 New-Item -ItemType Directory -Force -Path $Root, $Sdk, $AvdHome, $Downloads | Out-Null
 
-# ---------------------------------------------------------------- Java (needed by Google's SDK tools)
-Write-Step 'Step 1/5: Java runtime for the Android SDK tools'
-if (Get-JavaHome) {
+# Earlier versions of this toolkit used Java + sdkmanager; they are no longer needed.
+foreach ($old in (Join-Path $Root 'jdk'), (Join-Path $Sdk 'cmdline-tools')) {
+    if (Test-Path $old) { Remove-Item $old -Recurse -Force -ErrorAction SilentlyContinue }
+}
+
+# ---------------------------------------------------------------- Google packages
+Write-Step 'Step 1/4: Android Emulator, adb and Android image with Google Play (from dl.google.com)'
+$needEmulator = -not (Test-Path $Emulator)
+$needAdb      = -not (Test-Path $Adb)
+$needImage    = -not (Test-Path (Join-Path $SysImgDir 'source.properties'))
+if (-not ($needEmulator -or $needAdb -or $needImage)) {
     Write-Ok 'Already installed.'
 } else {
-    $zip = Join-Path $Downloads 'jdk.zip'
-    try {
-        Invoke-Download 'https://aka.ms/download-jdk/microsoft-jdk-21-windows-x64.zip' $zip
-    } catch {
-        Write-Warn 'Microsoft OpenJDK download failed, trying Eclipse Temurin.'
-        Invoke-Download 'https://api.adoptium.net/v3/binary/latest/21/ga/windows/x64/jdk/hotspot/normal/eclipse' $zip
+    $packages = @()
+    if ($needEmulator -or $needAdb) { $repo = Get-GoogleList $RepoUrl 'repository2-' }
+    if ($needEmulator) {
+        $packages += @{ Archive = (Find-Archive $repo 'emulator' $RepoUrl)
+                        Target = (Join-Path $Sdk 'emulator'); Marker = 'emulator.exe'; Label = 'Android Emulator' }
     }
-    Expand-Zip $zip $JdkDir
-    Remove-Item $zip -Force
-    if (-not (Get-JavaHome)) { throw 'Java was downloaded but java.exe was not found.' }
-    Write-Ok 'Installed.'
+    if ($needAdb) {
+        $packages += @{ Archive = (Find-Archive $repo 'platform-tools' $RepoUrl)
+                        Target = (Join-Path $Sdk 'platform-tools'); Marker = 'adb.exe'; Label = 'Platform tools (adb)' }
+    }
+    if ($needImage) {
+        $imgUrl = "${RepoUrl}sys-img/$SysImgTag/"
+        $imgList = Get-GoogleList $imgUrl 'sys-img2-'
+        $packages += @{ Archive = (Find-Archive $imgList "system-images;android-$ApiLevel;$SysImgTag;$Abi" $imgUrl)
+                        Target = $SysImgDir; Marker = 'source.properties'; Label = "Android $ApiLevel image with Google Play (about 1.5 GB)" }
+    }
+
+    # Show Google's own license texts for these packages before downloading them.
+    $licenseDir = Join-Path $Root 'licenses'
+    New-Item -ItemType Directory -Force -Path $licenseDir | Out-Null
+    foreach ($p in $packages) {
+        if ($p.Archive.LicenseId -and $p.Archive.LicenseText) {
+            [System.IO.File]::WriteAllText((Join-Path $licenseDir "$($p.Archive.LicenseId).txt"), $p.Archive.LicenseText)
+        }
+    }
+    Write-Host '    These packages are Google software. Their license texts are saved in:'
+    Write-Host "    $licenseDir   (also: https://developer.android.com/studio/terms)"
+    $answer = Read-Host '    Do you accept Google''s license? [Y/n]'
+    if ($answer -match '^[nN]') { throw 'Setup cancelled: the license was not accepted.' }
+
+    foreach ($p in $packages) {
+        Install-GooglePackage $p.Archive $p.Target $p.Marker $p.Label
+    }
 }
+# The emulator only accepts an SDK folder that has these two subfolders.
+New-Item -ItemType Directory -Force -Path (Join-Path $Sdk 'platforms'), (Join-Path $Sdk 'platform-tools') | Out-Null
 Set-AndroidEnv
 
-# ---------------------------------------------------------------- Android SDK command-line tools
-Write-Step 'Step 2/5: Android SDK command-line tools (from dl.google.com)'
-if (Test-Path $SdkManager) {
-    Write-Ok 'Already installed.'
-} else {
-    $info = Get-CmdlineToolsArchive
-    $zip = Join-Path $Downloads 'cmdline-tools.zip'
-    Invoke-Download $info.Url $zip
-    if ($info.Checksum) {
-        $hash = (Get-FileHash $zip -Algorithm $info.Algorithm).Hash
-        if ($hash -ne $info.Checksum) { throw 'Checksum mismatch: the download is damaged. Run Setup again.' }
-        Write-Ok "Checksum verified ($($info.Algorithm))."
-    }
-    $tmp = Join-Path $Downloads 'cmdline-tools-tmp'
-    Expand-Zip $zip $tmp
-    $dest = Join-Path $Sdk 'cmdline-tools\latest'
-    if (Test-Path $dest) { Remove-Item $dest -Recurse -Force }
-    New-Item -ItemType Directory -Force -Path (Split-Path $dest) | Out-Null
-    Move-Item (Join-Path $tmp 'cmdline-tools') $dest
-    Remove-Item $tmp -Recurse -Force
-    Remove-Item $zip -Force
-    Write-Ok 'Installed.'
-}
-
-# ---------------------------------------------------------------- emulator + Google Play system image
-Write-Step 'Step 3/5: Android Emulator and Android image with Google Play (large download, please wait)'
-$yes = ((1..60) | ForEach-Object { 'y' }) -join "`r`n"
-$yes | & $SdkManager "--sdk_root=$Sdk" --licenses
-if ($LASTEXITCODE -ne 0) { throw 'Accepting the Android SDK licenses failed.' }
-& $SdkManager "--sdk_root=$Sdk" platform-tools emulator $SystemImage
-if ($LASTEXITCODE -ne 0) { throw 'Installing the emulator packages failed. Check your internet and run Setup again.' }
-Write-Ok 'Emulator and image ready.'
-
 # ---------------------------------------------------------------- virtual phones
-Write-Step "Step 4/5: Creating $Phones virtual phone(s)"
+Write-Step "Step 2/4: Creating $Phones virtual phone(s)"
 $hasWebcam = Test-Webcam
 if ($hasWebcam) { $backCamera = 'webcam0' } else { $backCamera = 'virtualscene' }
+if ([Environment]::ProcessorCount -ge 8) { $cores = 4 } else { $cores = 2 }
 for ($i = 1; $i -le $Phones; $i++) {
     $name = "$PhonePrefix$i"
-    $avdDir = Join-Path $AvdHome "$name.avd"
     if (Test-Path (Join-Path $AvdHome "$name.ini")) {
         Write-Ok "$name already exists."
         continue
     }
-    'no' | & $AvdManager create avd -n $name -k $SystemImage -d pixel_6 -p $avdDir --force
-    if ($LASTEXITCODE -ne 0) {
-        'no' | & $AvdManager create avd -n $name -k $SystemImage -p $avdDir --force
-    }
-    if ($LASTEXITCODE -ne 0) { throw "Creating $name failed." }
-    Set-IniValues (Join-Path $avdDir 'config.ini') @{
-        'avd.ini.displayname'     = "WhatsApp Phone $i"
-        'hw.ram'                  = $RamMB
-        'disk.dataPartition.size' = $StorageSize
-        'hw.keyboard'             = 'yes'
-        'hw.gpu.enabled'          = 'yes'
-        'hw.gpu.mode'             = 'auto'
-        'hw.camera.back'          = $backCamera
-        'hw.camera.front'         = 'emulated'
-        'hw.audioInput'           = 'yes'
-        'hw.audioOutput'          = 'yes'
-    }
+    New-Phone $i $backCamera $cores
     Write-Ok "$name created."
 }
 
 # ---------------------------------------------------------------- toolkit copy + desktop shortcuts
-Write-Step 'Step 5/5: Desktop shortcuts'
+Write-Step 'Step 3/4: Desktop shortcuts'
 New-Item -ItemType Directory -Force -Path $InstalledScripts | Out-Null
 if ((Resolve-Path $PSScriptRoot).Path -ne $InstalledScripts) {
     Copy-Item (Join-Path $PSScriptRoot '*.ps1') $InstalledScripts -Force
@@ -214,7 +292,7 @@ foreach ($name in Get-PhoneNames) {
 }
 
 # ---------------------------------------------------------------- hardware acceleration
-Write-Step 'Checking hardware acceleration'
+Write-Step 'Step 4/4: Checking hardware acceleration'
 & $Emulator -accel-check
 $accelOk = ($LASTEXITCODE -eq 0)
 $needRestart = $false
@@ -245,6 +323,7 @@ if ($needRestart) {
 Write-Host ' 1. Double-click "WhatsApp Phone 1" on the Desktop (first start takes 1-3 minutes).'
 Write-Host ' 2. Open Play Store, sign in with a Google account, install "WhatsApp Messenger" by WhatsApp LLC.'
 Write-Host ' 3. Register your number (code by SMS or call). Repeat for each phone and number.'
+Write-Host " With $ramGB GB of RAM, keep about $maxOpen phone(s) open at the same time; close one before opening another."
 Write-Host ' Everything is installed in' $Root
 if ($hasWebcam) {
     Write-Host ' Your webcam is used as the phone camera (to scan QR codes).'

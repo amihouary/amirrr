@@ -64,8 +64,9 @@
 1. **حمّل الملفات:** من صفحة المشروع على GitHub اضغط **Code** ← **Download ZIP**.
 2. **قبل فك الضغط:** اضغط على ملف ZIP بالزر الأيمن ← خصائص (Properties) ← فعّل **Unblock** (إلغاء الحظر) ← موافق. ثم فك الضغط.
 3. **شغّل `Setup.bat`** بالنقر المزدوج. سيسألك عن عدد الجوالات الافتراضية (جوال لكل رقم).
-   - يحمّل البرنامج كل شيء من خوادم رسمية فقط: Java من Microsoft، وأدوات أندرويد والمحاكي وصورة Android 14 مع Google Play من Google.
-   - يتحقق من سلامة ملف أدوات Google بالبصمة الرقمية (checksum).
+   - يحمّل البرنامج كل شيء من خوادم Google الرسمية فقط (dl.google.com): المحاكي، وأداة adb، وصورة Android 14 مع Google Play.
+   - يتحقق من سلامة كل ملف بالبصمة الرقمية (checksum) التي تنشرها Google.
+   - يعرض عليك رخصة Google لهذه الحزم ويحفظ نصها في `C:\WaPhones\licenses` قبل التحميل.
    - يستغرق تقريبًا 10 إلى 30 دقيقة حسب سرعة الإنترنت.
 4. **إذا ظهرت رسالة أن تسريع العتاد (hardware acceleration) لا يعمل:** وافق على تفعيل ميزة **Windows Hypervisor Platform** (ستظهر نافذة صلاحيات المسؤول)، ثم **أعد تشغيل الكمبيوتر**.
    - إذا قال إن الـ Virtualization معطّل في BIOS: ادخل إعدادات BIOS/UEFI عند التشغيل وفعّل **Intel VT-x** أو **AMD SVM Mode**.
@@ -135,7 +136,7 @@
 |---|---|
 | الجوال الافتراضي لا يفتح أو شاشته سوداء | شغّل في PowerShell: `powershell -ExecutionPolicy Bypass -File C:\WaPhones\scripts\start-phone.ps1 -Name WhatsApp-1 -ColdBoot` |
 | رسالة عن hardware acceleration أو WHPX | فعّل Windows Hypervisor Platform بتشغيل `C:\WaPhones\scripts\enable-acceleration.ps1` كمسؤول، وفعّل Virtualization في BIOS، ثم أعد التشغيل |
-| الجهاز بطيء | لا تفتح جوالات كثيرة معًا، فكل جوال يستهلك تقريبًا 2GB من الذاكرة |
+| الجهاز بطيء | لا تفتح جوالات كثيرة معًا، فكل جوال يستهلك تقريبًا 2 إلى 3GB من الذاكرة. يمكنك إنشاء 20 جوالًا، لكن افتح منها في نفس الوقت فقط ما تسمح به الذاكرة (يخبرك Setup بالعدد المناسب في آخره) |
 | تريد مكان تثبيت آخر | قبل تشغيل Setup عرّف متغير البيئة `WAPHONES_ROOT` بمسار بأحرف إنجليزية وبدون مسافات، مثل `D:\WaPhones` |
 | تريد إعادة ضبط جوال افتراضي | `start-phone.ps1 -Name WhatsApp-1 -Wipe` (يحذف كل ما في الجوال) |
 | تريد حذف كل شيء | شغّل `Uninstall.bat` (يحذف `C:\WaPhones` والاختصارات التي أنشأها فقط) |

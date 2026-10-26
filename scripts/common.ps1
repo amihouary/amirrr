@@ -11,13 +11,10 @@ if ($env:WAPHONES_ROOT) { $Root = $env:WAPHONES_ROOT } else { $Root = 'C:\WaPhon
 $Sdk          = Join-Path $Root 'sdk'
 $UserHome     = Join-Path $Root 'home'
 $AvdHome      = Join-Path $UserHome 'avd'
-$JdkDir       = Join-Path $Root 'jdk'
 $Downloads    = Join-Path $Root 'downloads'
 $WebProfiles  = Join-Path $Root 'web'
 $InstalledScripts = Join-Path $Root 'scripts'
 
-$SdkManager = Join-Path $Sdk 'cmdline-tools\latest\bin\sdkmanager.bat'
-$AvdManager = Join-Path $Sdk 'cmdline-tools\latest\bin\avdmanager.bat'
 $Emulator   = Join-Path $Sdk 'emulator\emulator.exe'
 $Adb        = Join-Path $Sdk 'platform-tools\adb.exe'
 
@@ -43,18 +40,6 @@ function Set-AndroidEnv {
     $env:ANDROID_USER_HOME     = $UserHome
     $env:ANDROID_EMULATOR_HOME = $UserHome
     $env:ANDROID_AVD_HOME      = $AvdHome
-    $javaHome = Get-JavaHome
-    if ($javaHome) {
-        $env:JAVA_HOME = $javaHome
-        $env:Path = (Join-Path $javaHome 'bin') + ';' + $env:Path
-    }
-}
-
-function Get-JavaHome {
-    # The JDK zip unpacks into one versioned folder, e.g. jdk\jdk-21.0.5+11\bin\java.exe
-    $java = Get-Item (Join-Path $JdkDir '*\bin\java.exe') -ErrorAction SilentlyContinue | Select-Object -First 1
-    if ($java) { return (Split-Path (Split-Path $java.FullName)) }
-    return $null
 }
 
 function Invoke-Download([string]$Url, [string]$OutFile) {
