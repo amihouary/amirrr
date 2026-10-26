@@ -172,7 +172,7 @@ function Show-AccelHelp {
 # ---------------------------------------------------------------- checks
 Write-Host ''
 Write-Host '=============================================' -ForegroundColor Green
-Write-Host '   WhatsApp Phones - setup (official tools)  ' -ForegroundColor Green
+Write-Host '   WhatsApp Phones - setup v2 (official tools)' -ForegroundColor Green
 Write-Host '=============================================' -ForegroundColor Green
 
 Assert-SafeRoot
