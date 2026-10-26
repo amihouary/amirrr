@@ -1,0 +1,3 @@
+# Windows needs CRLF line endings in batch and PowerShell files; keep them byte-for-byte.
+*.bat -text
+*.ps1 -text
