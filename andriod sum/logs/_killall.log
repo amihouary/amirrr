@@ -1,0 +1,438 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825164314
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 18860
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:43:14.596 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down (saves its snapshot) ...
+  asking emulator-5556 to shut down (saves its snapshot) ...
+  asking emulator-5558 to shut down (saves its snapshot) ...
+  3 instance(s) down cleanly in 26.1s
+  killing powershell.exe (pid 24888)
+  killing adb.exe (pid 25052)
+  killing powershell.exe (pid 19312)
+  killing powershell.exe (pid 22512)
+  killing emulator.exe (pid 25468)
+  killing emulator.exe (pid 34060)
+killed 6 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825164345
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825165412
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll -Force
+Process ID: 28764
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:54:12.546 [INFO ] === _killall : -KillAll True -Force True
+  killing adb.exe (pid 2732)
+  killing emulator.exe (pid 24312)
+  killing qemu-system-x86_64.exe (pid 30488)
+  killing crashpad_handler.exe (pid 23492)
+  killing emulator.exe (pid 12660)
+  killing qemu-system-x86_64.exe (pid 32436)
+  killing crashpad_handler.exe (pid 23876)
+  killing emulator.exe (pid 22700)
+  killing qemu-system-x86_64.exe (pid 12000)
+  killing crashpad_handler.exe (pid 23312)
+killed 10 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825165417
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825170715
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 29616
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:07:15.651 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5556 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  3 instance(s) down cleanly in 22.5s
+  killing adb.exe (pid 33540)
+  killing emulator.exe (pid 17616)
+  killing emulator.exe (pid 22912)
+killed 3 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825170741
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825175302
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 9724
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:53:02.766 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  2 instance(s) down cleanly in 19.5s
+  killing adb.exe (pid 13412)
+  killing powershell.exe (pid 24236)
+  killing emulator.exe (pid 8052)
+killed 3 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825181728
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825221915
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 25544
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:19:15.846 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5556 to shut down cleanly ...
+  2 instance(s) down cleanly in 3.3s
+  killing adb.exe (pid 12548)
+  killing emulator.exe (pid 22700)
+  killing emulator.exe (pid 26292)
+  killing emulator.exe (pid 31492)
+  killing emulator.exe (pid 24340)
+killed 5 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825221921
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826005618
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 30304
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:56:18.176 [INFO ] === _killall : -KillAll True
+  killing adb.exe (pid 8344)
+killed 1 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826005627
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826131750
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 21084
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:17:50.460 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  2 instance(s) down cleanly in 3.0s
+  killing adb.exe (pid 6412)
+  killing emulator.exe (pid 23320)
+  killing emulator.exe (pid 7676)
+  killing emulator.exe (pid 16980)
+  killing emulator.exe (pid 17436)
+killed 5 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826131837
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826163600
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 10336
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:36:00.924 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  2 instance(s) down cleanly in 3.6s
+  killing adb.exe (pid 2724)
+  killing emulator.exe (pid 20192)
+  killing emulator.exe (pid 10072)
+  killing emulator.exe (pid 16480)
+  killing emulator.exe (pid 21076)
+killed 5 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826164656
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826212422
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 18908
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+21:24:22.561 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  2 instance(s) down cleanly in 6.1s
+  killing adb.exe (pid 16696)
+  killing powershell.exe (pid 13768)
+  killing emulator.exe (pid 21396)
+  killing emulator.exe (pid 18880)
+  killing emulator.exe (pid 19776)
+  killing emulator.exe (pid 21448)
+killed 6 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826212436
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827001537
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 1236
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:15:37.538 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  2 instance(s) down cleanly in 1.9s
+  killing adb.exe (pid 28440)
+  killing powershell.exe (pid 18488)
+  killing powershell.exe (pid 16992)
+  killing emulator.exe (pid 540)
+  killing emulator.exe (pid 16884)
+  killing emulator.exe (pid 30956)
+  killing emulator.exe (pid 33256)
+killed 7 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827001940
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827004312
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 26108
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:43:12.412 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  2 instance(s) down cleanly in 3.7s
+  killing adb.exe (pid 20720)
+  killing powershell.exe (pid 34952)
+  killing powershell.exe (pid 25896)
+  killing emulator.exe (pid 28848)
+  killing emulator.exe (pid 28108)
+  killing emulator.exe (pid 24688)
+  killing emulator.exe (pid 23344)
+killed 7 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827004423
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827005243
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 36652
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:52:43.339 [INFO ] === _killall : -KillAll True
+  asking emulator-5554 to shut down cleanly ...
+  asking emulator-5558 to shut down cleanly ...
+  2 instance(s) down cleanly in 3.2s
+  killing adb.exe (pid 30128)
+  killing powershell.exe (pid 24568)
+  killing emulator.exe (pid 29104)
+  killing emulator.exe (pid 31200)
+  killing emulator.exe (pid 6560)
+  killing emulator.exe (pid 30512)
+  killing adb.exe (pid 34972)
+killed 7 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827005250
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827164729
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -KillAll
+Process ID: 1660
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:47:29.914 [INFO ] === _killall : -KillAll True
+  killing adb.exe (pid 26280)
+  killing powershell.exe (pid 18492)
+  killing emulator.exe (pid 34140)
+killed 3 process(es) - all clear
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827164740
+**********************

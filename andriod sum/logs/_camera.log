@@ -1,0 +1,1802 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827014908
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -File C:\Users\user\Downloads\andriod sum\android.ps1 -PickRegion
+Process ID: 8980
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:49:08.767 [INFO ] === _camera : -PickRegion True
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+01:49:19.679 [ERROR] camera region: 573x586 at 1380,254 -> x inside a x frame
+01:50:22.776 [INFO ] screen camera feeder started (the guest camera shows the picked screen region)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827015024
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827015023
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 20524
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:50:23.365 [INFO ] === _camera : -ScreenCam True
+01:50:23.718 [OK   ] screen camera feeding x at , into camera.png
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+01:50:25.875 [WARN ] cannot capture the screen (3 tries) - still trying
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+**********************
+Windows PowerShell transcript start
+Start time: 20260827145210
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 29356
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+14:52:10.494 [INFO ] === _camera : -ScreenCam True
+14:52:10.910 [OK   ] screen camera feeding x at , into camera.png
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+14:52:13.172 [WARN ] cannot capture the screen (3 tries) - still trying
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+15:09:05.260 [INFO ] no emulator window for 60s - feeder stopping after 0 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827150905
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827150934
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\user\Downloads\andriod sum\android.ps1' -ScreenCam -Check; Get-Item 'C:\Users\user\Downloads\andriod sum\camera.png' | Select-Object Length,LastWriteTime | Format-List
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-28ef' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 31304
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:09:34.921 [INFO ] === _camera : -ScreenCam True -Check True
+PS>TerminatingError(New-Object): "Exception calling ".ctor" with "2" argument(s): "Value of 'null' is not valid for 'stream'.""
+region x at , -> x at , in a x frame: FAILED
+  C:\Users\user\Downloads\andriod sum\camera.png
+
+
+Length        : 17089
+LastWriteTime : 8/27/2026 1:50:04 AM
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260827150935
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827151113
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\user\Downloads\andriod sum\android.ps1' -ScreenCam -Check; Get-Item 'C:\Users\user\Downloads\andriod sum\camera.png' | Select-Object Length,LastWriteTime | Format-List
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-1415' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 29812
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:11:13.663 [INFO ] === _camera : -ScreenCam True -Check True
+region 573x586 at 1380,254 -> 432x442 at 104,19 in a 640x480 frame: written
+  C:\Users\user\Downloads\andriod sum\camera.png
+
+
+Length        : 23685
+LastWriteTime : 8/27/2026 3:11:14 PM
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260827151114
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827151234
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 14872
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:12:34.940 [INFO ] === _camera : -ScreenCam True
+15:12:35.338 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+**********************
+Windows PowerShell transcript start
+Start time: 20260827152257
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command $adb='D:\Android\Sdk\platform-tools\adb.exe'
+& $adb -s emulator-5562 emu kill; Start-Sleep -Seconds 8
+Remove-Item 'C:\Users\user\Downloads\andriod sum\camera.png','C:\Users\user\camtest.png' -Force -ErrorAction SilentlyContinue
+& 'C:\Users\user\Downloads\andriod sum\android.ps1' -ScreenCam -Check
+Get-ChildItem 'C:\Users\user\Downloads\andriod sum' -Filter 'camera.*' | Select-Object Name
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-4b2a' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 26096
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:22:57.836 [INFO ] === _camera : -ScreenCam True -Check True
+region 573x586 at 1380,254 -> 432x442 at 104,19 in a 640x480 frame: written
+  C:\Users\user\AppData\Local\avd-screencam\camera.png
+
+Name
+----
+camera.ini
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20260827152258
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827152423
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 28288
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:24:23.126 [INFO ] === _camera : -ScreenCam True
+15:24:23.583 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+15:26:34.560 [INFO ] no emulator window for 60s - feeder stopping after 126 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827152634
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827154233
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 31432
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:42:33.059 [INFO ] === _camera : -ScreenCam True
+15:42:33.588 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+15:55:27.500 [INFO ] no emulator window for 60s - feeder stopping after 735 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827155527
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827155722
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 23976
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:57:22.898 [INFO ] === _camera : -ScreenCam True
+15:57:23.497 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+16:12:22.508 [INFO ] no emulator window for 60s - feeder stopping after 840 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827161222
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827162448
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 34248
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:24:48.557 [INFO ] === _camera : -ScreenCam True
+16:24:49.922 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+16:38:10.533 [INFO ] no emulator window for 60s - feeder stopping after 766 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827163810
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827164659
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 18492
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:46:59.976 [INFO ] === _camera : -ScreenCam True
+16:47:00.473 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+**********************
+Windows PowerShell transcript start
+Start time: 20260827164942
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 34404
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:49:42.315 [INFO ] === _camera : -ScreenCam True
+16:49:42.866 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+17:09:02.912 [INFO ] no emulator window for 60s - feeder stopping after 1112 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827170902
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827171026
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 19560
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:10:26.635 [INFO ] === _camera : -ScreenCam True
+17:10:27.021 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+**********************
+Windows PowerShell transcript start
+Start time: 20260827185221
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 8896
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+18:52:21.930 [INFO ] === _camera : -ScreenCam True
+18:52:22.184 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+18:59:02.158 [INFO ] no emulator window for 60s - feeder stopping after 385 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827185902
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827190426
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ScreenCam
+Process ID: 6840
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+19:04:26.657 [INFO ] === _camera : -ScreenCam True
+19:04:26.936 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+19:28:16.429 [INFO ] no emulator window for 60s - feeder stopping after 1367 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827192816
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260911100236
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ScreenCam
+Process ID: 1824
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+10:02:36.325 [INFO ] === _camera : -ScreenCam True
+10:02:36.626 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+10:53:30.550 [INFO ] no emulator window for 60s - feeder stopping after 2929 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260911105330
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260916130515
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ScreenCam
+Process ID: 17808
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:05:15.184 [INFO ] === _camera : -ScreenCam True
+13:05:15.490 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+13:34:24.852 [INFO ] no emulator window for 60s - feeder stopping after 1676 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260916133425
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260926170000
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ScreenCam
+Process ID: 39000
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:00:00.238 [INFO ] === _camera : -ScreenCam True
+17:00:09.599 [OK   ] screen camera feeding 573x586 at 1380,254 into camera.png
+17:13:01.604 [INFO ] no emulator window for 60s - feeder stopping after 686 frame(s)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260926171301
+**********************

@@ -1,0 +1,167 @@
+
+**********************
+Windows PowerShell transcript start
+Start time: 20260827013816
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa02 -Apk C:\Users\user\Downloads\WhatsApp.apk
+Process ID: 26592
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:38:16.537 [INFO ] === wa02 : -Name wa02 -Apk C:\Users\user\Downloads\WhatsApp.apk
+wa02 already running on emulator-5562
+01:38:17.210 [OK   ] ready in 0.3s
+01:38:19.353 [INFO ] animations off, wifi background scanning off (one-off)
+01:38:21.148 [INFO ] identity applied: Galaxy A51 | 9655010270141 | Asia/Kuwait | en-KW
+01:38:21.168 [INFO ] installing WhatsApp.apk (135.8 MB) into wa02
+01:39:21.853 [OK   ] installed into wa02 in 61s
+01:39:22.354 [INFO ]   third-party packages now: com.whatsapp
+**********************
+Windows PowerShell transcript end
+End time: 20260827013922
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827014055
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa02 -Apk C:\Users\user\Downloads\WhatsApp.apk
+Process ID: 31900
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:40:55.879 [INFO ] === wa02 : -Name wa02 -Apk C:\Users\user\Downloads\WhatsApp.apk
+wa02 already running on emulator-5562
+01:40:56.219 [OK   ] ready in 0.0s
+01:40:56.402 [INFO ] installing WhatsApp.apk (135.8 MB) into wa02
+01:41:36.490 [OK   ] installed into wa02 in 40s
+01:41:37.071 [INFO ]   third-party packages now: com.whatsapp
+**********************
+Windows PowerShell transcript end
+End time: 20260827014137
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827151139
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa02
+Process ID: 5632
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:11:39.427 [INFO ] === wa02 : -Name wa02
+15:11:41.941 [INFO ] host before boot: cpu 69% | RAM free 17696 MB | D: free 492.8 GB | emulators up 0
+15:11:41.947 [INFO ]   committed 31339 MB of 64577 MB
+15:11:41.982 [INFO ] booting wa02 on port 5562 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+15:11:41.984 [INFO ]   emulator.exe -avd wa02 -port 5562 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Kuwait -phone-number 9655010270141 -camera-back "imagefile:C:\Users\user\Downloads\andriod sum\camera.png" -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+15:11:44.230 [OK   ] console port 5562 answered after 2.2s
+15:11:54.778 [INFO ]   booting 11s: adb offline, qemu 42 MB resident
+15:12:05.035 [INFO ]   booting 21s: adb offline, qemu 405 MB resident
+15:12:14.774 [INFO ]   booting 31s: adb device, qemu 164 MB resident
+15:12:16.201 [INFO ] host while booting: cpu 28% | RAM free 17117 MB | D: free 492.8 GB | emulators up 1
+15:12:16.203 [INFO ]   committed 33561 MB of 64577 MB
+15:12:25.043 [INFO ]   booting 41s: adb device, qemu 259 MB resident
+15:12:34.114 [OK   ] ready in 49.9s
+15:12:34.122 [INFO ] boot gate released - the next queued instance can start
+15:12:34.190 [INFO ] clipboard bridge started (Ctrl+C / Ctrl+V inside the emulator window)
+15:12:34.228 [INFO ] screen camera feeder started (the guest camera shows the picked screen region)
+launched com.whatsapp
+15:12:38.440 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+15:12:38.442 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827151238
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827152349
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa02
+Process ID: 8904
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:23:49.861 [INFO ] === wa02 : -Name wa02
+15:23:51.716 [INFO ] host before boot: cpu 14% | RAM free 17851 MB | D: free 492.7 GB | emulators up 0
+15:23:51.720 [INFO ]   committed 30794 MB of 64577 MB
+15:23:51.747 [INFO ] booting wa02 on port 5562 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+15:23:51.749 [INFO ]   emulator.exe -avd wa02 -port 5562 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Kuwait -phone-number 9655010270141 -camera-back imagefile:C:\Users\user\AppData\Local\avd-screencam\camera.png -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+15:23:52.889 [OK   ] console port 5562 answered after 1.1s
+15:24:03.205 [INFO ]   booting 10s: adb offline, qemu 82 MB resident
+15:24:13.774 [INFO ]   booting 21s: adb device, qemu 154 MB resident
+15:24:22.308 [OK   ] ready in 29.4s
+15:24:22.315 [INFO ] boot gate released - the next queued instance can start
+15:24:22.389 [INFO ] clipboard bridge started (Ctrl+C / Ctrl+V inside the emulator window)
+15:24:22.444 [INFO ] screen camera feeder started (the guest camera shows the picked screen region)
+launched com.whatsapp
+15:24:28.027 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+15:24:28.029 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827152428
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827152531
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa02 -Stop
+Process ID: 25680
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:25:31.064 [INFO ] === wa02 : -Name wa02 -Stop True
+15:25:33.744 [OK   ] wa02 down cleanly in 2.2s
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827152533
+**********************

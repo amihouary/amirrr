@@ -1,0 +1,74 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260826115846
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File .\android.ps1 -Tile
+Process ID: 25172
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+11:58:47.263 [INFO ]   System.Object[] System.Object[]xSystem.Object[] at System.Object[],System.Object[]
+11:58:47.292 [INFO ] arranged 1 window(s)
+**********************
+Windows PowerShell transcript end
+End time: 20260826115847
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826115913
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File .\android.ps1 -Tile
+Process ID: 27408
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+11:59:13.453 [INFO ]   3794xa         532x921 at 162,4
+11:59:13.487 [INFO ]   wa01           457x921 at 1050,4
+11:59:13.490 [INFO ] arranged 2 window(s)
+**********************
+Windows PowerShell transcript end
+End time: 20260826115913
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826120410
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File ./android.ps1 -Tile
+Process ID: 21064
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+12:04:10.891 [INFO ]   3794xa         533x921 at 161,4
+12:04:10.915 [INFO ]   wa01           457x921 at 1050,4
+12:04:10.917 [INFO ] arranged 2 window(s)
+**********************
+Windows PowerShell transcript end
+End time: 20260826120410
+**********************

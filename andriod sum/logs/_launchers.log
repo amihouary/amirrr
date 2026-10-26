@@ -1,0 +1,279 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825170425
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -Launchers
+Process ID: 25508
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:04:26.034 [INFO ] === _launchers : -Launchers True
+17:04:26.261 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+17:04:26.265 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+17:04:26.269 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825170426
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825171718
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 20244
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:17:18.546 [INFO ] === _launchers : -Launchers True
+17:17:18.731 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+17:17:18.736 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+17:17:18.740 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825171718
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825171719
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 17812
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:17:19.103 [INFO ] === _launchers : -Launchers True
+17:17:19.304 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+17:17:19.309 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+17:17:19.313 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825171719
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825171719
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 6184
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:17:19.582 [INFO ] === _launchers : -Launchers True
+17:17:19.787 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+17:17:19.791 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+17:17:19.795 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825171719
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825171719
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 32936
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:17:19.953 [INFO ] === _launchers : -Launchers True
+17:17:20.146 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+17:17:20.151 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+17:17:20.154 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825171720
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825171720
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 20280
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:17:20.781 [INFO ] === _launchers : -Launchers True
+17:17:20.973 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+17:17:20.978 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+17:17:20.982 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825171720
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825224305
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 26916
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:43:05.428 [INFO ] === _launchers : -Launchers True
+22:43:05.673 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+22:43:05.678 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+22:43:05.681 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825224305
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825224306
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 27936
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:43:06.623 [INFO ] === _launchers : -Launchers True
+22:43:06.867 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+22:43:06.872 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+22:43:06.876 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825224306
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825224306
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Launchers
+Process ID: 29560
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:43:06.971 [INFO ] === _launchers : -Launchers True
+22:43:07.190 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+22:43:07.194 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+22:43:07.198 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa02.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825224307
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827001038
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa01 -Launchers
+Process ID: 33316
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:10:38.114 [INFO ] === _launchers : -Name wa01 -Launchers True
+00:10:38.469 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-3794xa.bat
+00:10:38.473 [OK   ] launcher: C:\Users\user\Downloads\andriod sum\run-wa01.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827001038
+**********************

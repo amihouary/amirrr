@@ -1,0 +1,82 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260916130416
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command try { $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8' } catch {}; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { try { $OutputEncoding = [System.Text.UTF8Encoding]::new() } catch {}; if ($null -ne $PSStyle) { try { $PSStyle.OutputRendering = 'PlainText' } catch {} } }; & "C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1" -New wa10 -Ram 2048
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-92b4' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 17424
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:04:16.436 [INFO ] === wa10 : -New wa10 -Ram 2048
+== creating instance 'wa10' ==
+
+
+instance : wa10
+port     : 5574
+ram/cores: 2048 MB / 2
+profile  : Tecno Spark 7 504x896@240 | +2010125762540 | Africa/Cairo | en-EG
+launcher : C:\Users\user\Downloads\مشريعي\andriod sum\run-wa10.bat
+**********************
+Windows PowerShell transcript end
+End time: 20260916130422
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260916130556
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command try { $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8' } catch {}; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { try { $OutputEncoding = [System.Text.UTF8Encoding]::new() } catch {}; if ($null -ne $PSStyle) { try { $PSStyle.OutputRendering = 'PlainText' } catch {} } }; & "C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1" -Name wa10
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-7d11' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 17928
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:05:56.344 [INFO ] === wa10 : -Name wa10
+13:05:58.012 [INFO ] host before boot: cpu 23% | RAM free 21234 MB | D: free 460.3 GB | emulators up 1
+13:05:58.017 [INFO ]   committed 19540 MB of 64577 MB
+13:05:58.046 [INFO ] booting wa10 on port 5574 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+13:05:58.048 [INFO ]   emulator.exe -avd wa10 -port 5574 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Africa/Cairo -phone-number 2010125762540 -camera-back imagefile:C:\Users\user\AppData\Local\avd-screencam\camera.png -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+13:06:03.056 [OK   ] console port 5574 answered after 5.0s
+13:06:13.290 [INFO ]   booting 10s: adb offline, qemu 52 MB resident
+13:06:23.534 [INFO ]   booting 20s: adb offline, qemu 95 MB resident
+13:06:33.746 [INFO ]   booting 31s: adb offline, qemu 160 MB resident
+13:06:34.949 [INFO ] host while booting: cpu 40% | RAM free 20104 MB | D: free 459.9 GB | emulators up 2
+13:06:34.951 [INFO ]   committed 22292 MB of 64577 MB
+13:06:43.483 [INFO ]   booting 40s: adb offline, qemu 74 MB resident
+13:06:53.773 [INFO ]   booting 51s: adb offline, qemu 243 MB resident
+13:07:03.998 [INFO ]   booting 61s: adb offline, qemu 234 MB resident
+13:07:05.276 [INFO ] host while booting: cpu 71% | RAM free 19224 MB | D: free 459.9 GB | emulators up 2
+13:07:05.277 [INFO ]   committed 22666 MB of 64577 MB
+13:07:13.278 [OK   ] ready in 70.2s
+13:07:13.287 [INFO ] boot gate released - the next queued instance can start
+13:07:15.044 [INFO ] animations off, wifi background scanning off (one-off)
+13:07:17.008 [INFO ] identity applied: Tecno Spark 7 | 2010125762540 | Africa/Cairo | en-EG
+13:07:17.147 [WARN ] WhatsApp is not installed here. Install it INSIDE the emulator from the Play Store (Play-Store-installed is what its own checks look for), or, knowing that, sideload one with -Apk <file>.
+13:07:17.148 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+13:07:17.149 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+**********************
+Windows PowerShell transcript end
+End time: 20260916130717
+**********************

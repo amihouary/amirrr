@@ -1,0 +1,1482 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825222710
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 20156
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:27:10.717 [INFO ] === 3794xa : -Name 3794xa
+22:27:12.771 [INFO ] host before boot: cpu 28% | RAM free 19284 MB | D: free 514 GB | emulators up 0
+22:27:12.776 [INFO ]   committed 31508 MB of 64577 MB
+22:27:12.821 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+22:27:12.823 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -prop persist.sys.locale=en-IQ -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+22:27:14.505 [OK   ] console port 5558 answered after 1.7s
+22:27:24.806 [INFO ]   booting 10s: adb offline, qemu 34 MB resident
+22:27:35.149 [INFO ]   booting 21s: adb offline, qemu 412 MB resident
+22:27:45.343 [INFO ]   booting 31s: adb device, qemu 61 MB resident
+22:27:46.716 [INFO ] host while booting: cpu 66% | RAM free 18383 MB | D: free 514 GB | emulators up 1
+22:27:46.718 [INFO ]   committed 34080 MB of 64577 MB
+22:27:48.551 [OK   ] ready in 34.0s
+22:27:48.556 [INFO ] boot gate released - the next queued instance can start
+22:27:49.593 [INFO ] identity applied: Redmi Note 9 | 9647515404553 | Asia/Baghdad | en-IQ
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+22:27:49.686 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+22:27:49.688 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825222749
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825222758
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -Name 3794xa -Check
+Process ID: 14896
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:27:58.833 [INFO ] === 3794xa : -Name 3794xa -Check True
+3794xa already running on emulator-5558
+22:27:59.166 [OK   ] ready in 0.1s
+22:27:59.710 [INFO ] identity applied: Redmi Note 9 | 9647515404553 | Asia/Baghdad | en-IQ
+
+== identity (differs per instance) ==
+  device name  : sdk_gphone_x86_64
+  phone number : 9647515404553
+  timezone     : Asia/Baghdad  (Tue Aug 25 21:27:59 +03 2026)
+  locale       :
+  screen       : Physical size: 600x1024 / Physical density: 240
+  identity file: D:\Android\avd\3794xa.avd\identity.ini
+  NOTE model/brand/fingerprint/IMEI below are the SAME on every instance:
+  one read-only system image is shared, and -prop cannot override a ro.* it set.
+
+== device ==
+  android      : 11 (API 30)
+  model        : google / sdk_gphone_x86_64
+  abis         : x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
+  fingerprint  : google/sdk_gphone_x86_64/generic_x86_64_arm64:11/RSR1.201211.001/7027799:user/release-keys
+
+== google play ==
+  OK   Play Store   : versionName=52.7.55-29 [0] [PR] 968653067
+  OK   Play Services : versionName=26.32.34 (150800-968093310)
+  OK   Services Fwk : versionName=11
+  certification: Play Store > Settings > About > 'Play Protect certification'
+                 (the 'playstore' image is certified; 'google_apis' would not be)
+
+== capabilities ==
+  OK   work profile (Shelter/Island) -> 4 accounts/instance
+  OK   camera
+  OK   telephony / SIM
+  OK   GPS
+  OK   microphone (voice notes)
+  users        : Users: UserInfo{0:Owner:c13} running
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+22:28:04.165 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+22:28:04.167 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825222804
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825222925
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -Name 3794xa -Check
+Process ID: 33236
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:29:25.771 [INFO ] === 3794xa : -Name 3794xa -Check True
+3794xa already running on emulator-5558
+22:29:27.031 [OK   ] ready in 0.1s
+22:29:27.282 [INFO ] identity applied: Redmi Note 9 | 9647515404553 | Asia/Baghdad | en-IQ
+
+== identity (differs per instance) ==
+  device name  : Redmi Note 9
+  phone number : 9647515404553
+  timezone     : Asia/Baghdad  (Tue Aug 25 21:29:26 +03 2026)
+  locale       :
+  screen       : Physical size: 600x1024 / Physical density: 240
+  identity file: D:\Android\avd\3794xa.avd\identity.ini
+  NOTE model/brand/fingerprint/IMEI below are the SAME on every instance:
+  one read-only system image is shared, and -prop cannot override a ro.* it set.
+
+== device ==
+  android      : 11 (API 30)
+  model        : google / sdk_gphone_x86_64
+  abis         : x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
+  fingerprint  : google/sdk_gphone_x86_64/generic_x86_64_arm64:11/RSR1.201211.001/7027799:user/release-keys
+
+== google play ==
+  OK   Play Store   : versionName=52.7.55-29 [0] [PR] 968653067
+  OK   Play Services : versionName=26.32.34 (150800-968093310)
+  OK   Services Fwk : versionName=11
+  certification: Play Store > Settings > About > 'Play Protect certification'
+                 (the 'playstore' image is certified; 'google_apis' would not be)
+
+== capabilities ==
+  OK   work profile (Shelter/Island) -> 4 accounts/instance
+  OK   camera
+  OK   telephony / SIM
+  OK   GPS
+  OK   microphone (voice notes)
+  users        : Users: UserInfo{0:Owner:c13} running
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+22:29:28.281 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+22:29:28.282 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825222928
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825222948
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -Name 3794xa -Check
+Process ID: 17388
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:29:48.460 [INFO ] === 3794xa : -Name 3794xa -Check True
+3794xa already running on emulator-5558
+22:29:48.760 [OK   ] ready in 0.0s
+
+== identity (differs per instance) ==
+  device name  : Redmi Note 9
+  phone number : 9647515404553
+  timezone     : Asia/Baghdad  (Tue Aug 25 21:29:48 +03 2026)
+  region       : en-IQ  (bluetooth name: Redmi Note 9)
+  screen       : Physical size: 600x1024 / Physical density: 240
+  identity file: D:\Android\avd\3794xa.avd\identity.ini
+  NOTE model/brand/fingerprint/IMEI below are the SAME on every instance:
+  one read-only system image is shared, and -prop cannot override a ro.* it set.
+
+== device ==
+  android      : 11 (API 30)
+  model        : google / sdk_gphone_x86_64
+  abis         : x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
+  fingerprint  : google/sdk_gphone_x86_64/generic_x86_64_arm64:11/RSR1.201211.001/7027799:user/release-keys
+
+== google play ==
+  OK   Play Store   : versionName=52.7.55-29 [0] [PR] 968653067
+  OK   Play Services : versionName=26.32.34 (150800-968093310)
+  OK   Services Fwk : versionName=11
+  certification: Play Store > Settings > About > 'Play Protect certification'
+                 (the 'playstore' image is certified; 'google_apis' would not be)
+
+== capabilities ==
+  OK   work profile (Shelter/Island) -> 4 accounts/instance
+  OK   camera
+  OK   telephony / SIM
+  OK   GPS
+  OK   microphone (voice notes)
+  users        : Users: UserInfo{0:Owner:c13} running
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+22:29:49.948 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+22:29:49.949 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825222949
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825224249
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Stop
+Process ID: 25928
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:42:49.422 [INFO ] === 3794xa : -Name 3794xa -Stop True
+3794xa is not running
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825224249
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825224252
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 23572
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+22:42:52.056 [INFO ] === 3794xa : -Name 3794xa
+22:42:53.877 [INFO ] host before boot: cpu 4% | RAM free 18411 MB | D: free 513.9 GB | emulators up 0
+22:42:53.897 [INFO ]   committed 31580 MB of 64577 MB
+22:42:53.939 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+22:42:53.940 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+22:42:55.091 [OK   ] console port 5558 answered after 1.1s
+22:43:05.387 [INFO ]   booting 10s: adb offline, qemu 95 MB resident
+22:43:15.821 [INFO ]   booting 21s: adb device, qemu 316 MB resident
+22:43:24.083 [OK   ] ready in 29.0s
+22:43:24.089 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+22:43:25.412 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+22:43:25.413 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825224325
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825231420
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 6364
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:14:20.561 [INFO ] === 3794xa : -Name 3794xa
+3794xa already running on emulator-5558
+23:14:21.902 [OK   ] ready in 1.1s
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+23:14:22.350 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+23:14:22.351 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825231422
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825231424
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 14984
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:14:24.392 [INFO ] === 3794xa : -Name 3794xa
+3794xa already running on emulator-5558
+23:14:24.736 [OK   ] ready in 0.1s
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+23:14:24.922 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+23:14:24.923 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825231424
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825231425
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 34752
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:14:25.749 [INFO ] === 3794xa : -Name 3794xa
+3794xa already running on emulator-5558
+23:14:26.080 [OK   ] ready in 0.1s
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+23:14:26.220 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+23:14:26.221 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825231426
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825231431
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Stop
+Process ID: 16704
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:14:31.684 [INFO ] === 3794xa : -Name 3794xa -Stop True
+23:14:39.567 [OK   ] 3794xa down cleanly in 7.5s
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825231439
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825231437
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 29816
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:14:37.216 [INFO ] === 3794xa : -Name 3794xa
+3794xa already running on emulator-5558
+23:14:47.656 [INFO ]   booting 10s: adb not listed, qemu 0 MB resident
+23:14:47.659 [WARN ]   no qemu process for this AVD - it died after opening the port
+23:14:57.949 [INFO ]   booting 20s: adb offline, qemu 33 MB resident
+23:15:08.194 [INFO ]   booting 31s: adb offline, qemu 417 MB resident
+23:15:09.487 [INFO ] host while booting: cpu 7% | RAM free 18266 MB | D: free 513.9 GB | emulators up 1
+23:15:09.492 [INFO ]   committed 33137 MB of 64577 MB
+23:15:17.679 [INFO ]   booting 40s: adb device, qemu 600 MB resident
+23:15:19.508 [OK   ] ready in 42.0s
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+23:15:20.154 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+23:15:20.155 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825231520
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825231447
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 25900
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:14:47.849 [INFO ] === 3794xa : -Name 3794xa
+23:14:49.700 [INFO ] host before boot: cpu 29% | RAM free 18461 MB | D: free 513.9 GB | emulators up 0
+23:14:49.706 [INFO ]   committed 30778 MB of 64577 MB
+23:14:49.762 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+23:14:49.764 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+23:14:51.429 [OK   ] console port 5558 answered after 1.6s
+23:15:01.647 [INFO ]   booting 10s: adb offline, qemu 52 MB resident
+23:15:12.057 [INFO ]   booting 21s: adb device, qemu 238 MB resident
+23:15:20.175 [OK   ] ready in 28.7s
+23:15:20.181 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+23:15:20.496 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+23:15:20.497 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825231520
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826113450
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 11628
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+11:34:51.047 [INFO ] === 3794xa : -Name 3794xa
+11:34:53.011 [INFO ] host before boot: cpu 31% | RAM free 21710 MB | D: free 513.8 GB | emulators up 0
+11:34:53.021 [INFO ]   committed 22787 MB of 64577 MB
+11:34:53.056 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+11:34:53.058 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+11:34:55.878 [OK   ] console port 5558 answered after 2.7s
+11:35:06.185 [INFO ]   booting 10s: adb offline, qemu 17 MB resident
+11:35:16.404 [INFO ]   booting 21s: adb offline, qemu 40 MB resident
+11:35:26.727 [INFO ]   booting 31s: adb device, qemu 216 MB resident
+11:35:27.968 [INFO ] host while booting: cpu 17% | RAM free 20397 MB | D: free 513.8 GB | emulators up 1
+11:35:27.970 [INFO ]   committed 25678 MB of 64577 MB
+11:35:36.722 [INFO ]   booting 41s: adb device, qemu 153 MB resident
+11:35:46.387 [INFO ]   booting 51s: adb device, qemu 350 MB resident
+11:35:56.123 [INFO ]   booting 60s: adb device, qemu 325 MB resident
+11:35:57.372 [INFO ] host while booting: cpu 14% | RAM free 19644 MB | D: free 513.8 GB | emulators up 1
+11:35:57.373 [INFO ]   committed 25202 MB of 64577 MB
+11:36:00.059 [OK   ] ready in 64.2s
+11:36:00.069 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+11:36:00.947 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+11:36:00.949 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826113600
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260826113452
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 20932
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+11:34:52.217 [INFO ] === 3794xa : -Name 3794xa
+another launcher is already starting 3794xa - waiting for it
+11:35:02.754 [INFO ]   booting 10s: adb offline, qemu 19 MB resident
+11:35:12.995 [INFO ]   booting 21s: adb offline, qemu 45 MB resident
+11:35:23.287 [INFO ]   booting 31s: adb device, qemu 268 MB resident
+11:35:24.610 [INFO ] host while booting: cpu 51% | RAM free 20418 MB | D: free 513.8 GB | emulators up 1
+11:35:24.615 [INFO ]   committed 25694 MB of 64577 MB
+11:35:33.315 [INFO ]   booting 41s: adb device, qemu 127 MB resident
+11:35:42.988 [INFO ]   booting 51s: adb device, qemu 50 MB resident
+11:35:53.476 [INFO ]   booting 61s: adb device, qemu 308 MB resident
+11:35:54.733 [INFO ] host while booting: cpu 30% | RAM free 19804 MB | D: free 513.8 GB | emulators up 1
+11:35:54.736 [INFO ]   committed 25085 MB of 64577 MB
+11:36:00.051 [OK   ] ready in 67.6s
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+11:36:00.951 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+11:36:00.952 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826113600
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826120449
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Stop
+Process ID: 21712
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+12:04:49.640 [INFO ] === 3794xa : -Name 3794xa -Stop True
+12:04:59.294 [OK   ] 3794xa down cleanly in 9.3s
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826120459
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826120812
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 23752
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+12:08:12.846 [INFO ] === 3794xa : -Name 3794xa
+12:08:14.588 [INFO ] host before boot: cpu 22% | RAM free 22025 MB | D: free 516.3 GB | emulators up 0
+12:08:14.593 [INFO ]   committed 21982 MB of 64577 MB
+12:08:14.631 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+12:08:14.633 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+12:08:16.321 [OK   ] console port 5558 answered after 1.7s
+12:08:26.655 [INFO ]   booting 10s: adb offline, qemu 91 MB resident
+12:08:36.985 [INFO ]   booting 21s: adb device, qemu 315 MB resident
+12:08:45.129 [OK   ] ready in 28.8s
+12:08:45.136 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+12:08:46.004 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+12:08:46.005 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826120846
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826121418
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 22668
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+12:14:19.011 [INFO ] === 3794xa : -Name 3794xa
+12:14:20.680 [INFO ] host before boot: cpu 22% | RAM free 21993 MB | D: free 516.3 GB | emulators up 0
+12:14:20.684 [INFO ]   committed 22381 MB of 64577 MB
+12:14:20.712 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+12:14:20.714 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+12:14:21.856 [OK   ] console port 5558 answered after 1.1s
+12:14:32.074 [INFO ]   booting 10s: adb offline, qemu 80 MB resident
+12:14:42.565 [INFO ]   booting 21s: adb device, qemu 386 MB resident
+12:14:48.927 [OK   ] ready in 27.1s
+12:14:48.933 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+12:14:49.821 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+12:14:49.822 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826121449
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826124304
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Stop
+Process ID: 25236
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+12:43:04.368 [INFO ] === 3794xa : -Name 3794xa -Stop True
+12:43:13.257 [OK   ] 3794xa down cleanly in 8.6s
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826124313
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826124410
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 27080
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+12:44:10.813 [INFO ] === 3794xa : -Name 3794xa
+12:44:12.751 [INFO ] host before boot: cpu 6% | RAM free 22201 MB | D: free 516.2 GB | emulators up 0
+12:44:12.756 [INFO ]   committed 20534 MB of 64577 MB
+12:44:12.783 [WARN ] another instance is booting - queued (the disk can only resume one at a time)
+12:44:41.784 [INFO ] gate free after 29s queued
+12:44:41.793 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+12:44:41.795 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+12:44:43.492 [OK   ] console port 5558 answered after 1.7s
+12:44:53.851 [INFO ]   booting 10s: adb offline, qemu 61 MB resident
+12:45:04.179 [INFO ]   booting 21s: adb device, qemu 175 MB resident
+12:45:14.248 [INFO ]   booting 31s: adb device, qemu 547 MB resident
+12:45:15.561 [INFO ] host while booting: cpu 76% | RAM free 19040 MB | D: free 516.2 GB | emulators up 2
+12:45:15.563 [INFO ]   committed 25261 MB of 64577 MB
+12:45:16.609 [OK   ] ready in 33.1s
+12:45:16.614 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+12:45:17.241 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+12:45:17.242 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826124517
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826130803
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Stop
+Process ID: 24568
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:08:03.124 [INFO ] === 3794xa : -Name 3794xa -Stop True
+13:08:07.295 [OK   ] 3794xa down cleanly in 3.9s
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826130807
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826131242
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 20100
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:12:42.499 [INFO ] === 3794xa : -Name 3794xa
+13:12:44.396 [INFO ] host before boot: cpu 12% | RAM free 23942 MB | D: free 516.1 GB | emulators up 0
+13:12:44.402 [INFO ]   committed 17741 MB of 64577 MB
+13:12:44.435 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+13:12:44.436 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+13:12:45.580 [OK   ] console port 5558 answered after 1.1s
+13:12:55.850 [INFO ]   booting 10s: adb offline, qemu 36 MB resident
+13:13:06.186 [INFO ]   booting 21s: adb device, qemu 266 MB resident
+13:13:14.436 [OK   ] ready in 28.9s
+13:13:14.441 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+13:13:15.439 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+13:13:15.440 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826131315
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826131600
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Stop
+Process ID: 20204
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:16:00.385 [INFO ] === 3794xa : -Name 3794xa -Stop True
+13:16:04.648 [OK   ] 3794xa down cleanly in 4.0s
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826131604
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826131608
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 19876
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:16:08.244 [INFO ] === 3794xa : -Name 3794xa
+13:16:09.832 [INFO ] host before boot: cpu 8% | RAM free 23285 MB | D: free 516.1 GB | emulators up 0
+13:16:09.842 [INFO ]   committed 17466 MB of 64577 MB
+13:16:09.872 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+13:16:09.872 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+13:16:10.979 [OK   ] console port 5558 answered after 1.1s
+13:16:21.212 [INFO ]   booting 10s: adb offline, qemu 409 MB resident
+13:16:31.532 [INFO ]   booting 21s: adb device, qemu 1201 MB resident
+13:16:36.051 [OK   ] ready in 25.1s
+13:16:36.055 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+13:16:36.947 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+13:16:36.948 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826131636
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826152110
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 32
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:21:10.981 [INFO ] === 3794xa : -Name 3794xa
+15:21:13.278 [INFO ] host before boot: cpu 56% | RAM free 9480 MB | D: free 516.1 GB | emulators up 0
+15:21:13.283 [INFO ]   committed 43165 MB of 64577 MB
+15:21:13.318 [WARN ] another instance is booting - queued (the disk can only resume one at a time)
+15:21:43.447 [INFO ]   still queued, 30s
+15:22:13.582 [INFO ]   still queued, 60s
+15:22:20.436 [INFO ] gate free after 67s queued
+15:22:20.448 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+15:22:20.453 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+15:22:22.242 [OK   ] console port 5558 answered after 1.8s
+15:22:32.940 [INFO ]   booting 11s: adb offline, qemu 380 MB resident
+15:22:42.453 [INFO ]   booting 20s: adb offline, qemu 456 MB resident
+15:22:52.776 [INFO ]   booting 31s: adb offline, qemu 475 MB resident
+15:22:54.146 [INFO ] host while booting: cpu 97% | RAM free 4709 MB | D: free 516.1 GB | emulators up 2
+15:22:54.148 [INFO ]   committed 50598 MB of 64577 MB
+15:23:02.911 [INFO ]   booting 41s: adb device, qemu 1155 MB resident
+15:23:13.032 [INFO ]   booting 51s: adb device, qemu 1571 MB resident
+15:23:14.857 [OK   ] ready in 52.6s
+15:23:14.860 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+15:23:15.238 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+15:23:15.239 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826152315
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826165226
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 23832
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:52:26.131 [INFO ] === 3794xa : -Name 3794xa
+16:52:27.883 [INFO ] host before boot: cpu 93% | RAM free 18828 MB | D: free 515.8 GB | emulators up 1
+16:52:27.891 [INFO ]   committed 21891 MB of 64577 MB
+16:52:27.943 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+16:52:27.945 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+16:52:29.635 [OK   ] console port 5558 answered after 1.7s
+16:52:40.004 [INFO ]   booting 10s: adb offline, qemu 409 MB resident
+16:52:50.338 [INFO ]   booting 21s: adb device, qemu 1034 MB resident
+16:53:00.177 [OK   ] ready in 30.5s
+16:53:00.203 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+16:53:01.174 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+16:53:01.175 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826165301
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826175429
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 23428
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:54:29.126 [INFO ] === 3794xa : -Name 3794xa
+17:54:31.100 [INFO ] host before boot: cpu 63% | RAM free 21401 MB | D: free 515.8 GB | emulators up 0
+17:54:31.105 [INFO ]   committed 18129 MB of 64577 MB
+17:54:31.135 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+17:54:31.137 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+17:54:32.407 [OK   ] console port 5558 answered after 1.1s
+17:54:42.714 [INFO ]   booting 10s: adb offline, qemu 419 MB resident
+17:54:53.067 [INFO ]   booting 21s: adb device, qemu 1200 MB resident
+17:55:03.273 [INFO ]   booting 31s: adb not listed, qemu 0 MB resident
+17:55:03.274 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:55:04.513 [INFO ] host while booting: cpu 49% | RAM free 21400 MB | D: free 515.8 GB | emulators up 0
+17:55:04.514 [INFO ]   committed 18182 MB of 64577 MB
+17:55:13.019 [INFO ]   booting 41s: adb not listed, qemu 0 MB resident
+17:55:13.020 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:55:23.169 [INFO ]   booting 51s: adb not listed, qemu 0 MB resident
+17:55:23.171 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:55:33.319 [INFO ]   booting 61s: adb not listed, qemu 0 MB resident
+17:55:33.321 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:55:34.540 [INFO ] host while booting: cpu 59% | RAM free 21406 MB | D: free 515.8 GB | emulators up 0
+17:55:34.542 [INFO ]   committed 18192 MB of 64577 MB
+17:55:43.024 [INFO ]   booting 71s: adb not listed, qemu 0 MB resident
+17:55:43.024 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:55:53.081 [INFO ]   booting 81s: adb not listed, qemu 0 MB resident
+17:55:53.081 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:56:03.143 [INFO ]   booting 91s: adb not listed, qemu 0 MB resident
+17:56:03.143 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:56:04.371 [INFO ] host while booting: cpu 39% | RAM free 21458 MB | D: free 515.8 GB | emulators up 0
+17:56:04.371 [INFO ]   committed 18165 MB of 64577 MB
+17:56:12.848 [INFO ]   booting 100s: adb not listed, qemu 0 MB resident
+17:56:12.860 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:56:23.075 [INFO ]   booting 111s: adb not listed, qemu 0 MB resident
+17:56:23.076 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:56:33.222 [INFO ]   booting 121s: adb not listed, qemu 0 MB resident
+17:56:33.224 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:56:34.442 [INFO ] host while booting: cpu 57% | RAM free 20849 MB | D: free 515.8 GB | emulators up 0
+17:56:34.444 [INFO ]   committed 19234 MB of 64577 MB
+17:56:42.931 [INFO ]   booting 131s: adb not listed, qemu 0 MB resident
+17:56:42.933 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:56:53.077 [INFO ]   booting 141s: adb not listed, qemu 0 MB resident
+17:56:53.079 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:57:03.239 [INFO ]   booting 151s: adb not listed, qemu 0 MB resident
+17:57:03.241 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:57:04.494 [INFO ] host while booting: cpu 57% | RAM free 21036 MB | D: free 515.8 GB | emulators up 0
+17:57:04.496 [INFO ]   committed 18450 MB of 64577 MB
+17:57:12.948 [INFO ]   booting 161s: adb not listed, qemu 0 MB resident
+17:57:12.950 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:57:23.118 [INFO ]   booting 171s: adb not listed, qemu 0 MB resident
+17:57:23.120 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:57:33.258 [INFO ]   booting 181s: adb not listed, qemu 0 MB resident
+17:57:33.259 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:57:34.486 [INFO ] host while booting: cpu 49% | RAM free 21210 MB | D: free 515.8 GB | emulators up 0
+17:57:34.488 [INFO ]   committed 18199 MB of 64577 MB
+17:57:42.956 [INFO ]   booting 191s: adb not listed, qemu 0 MB resident
+17:57:42.958 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:57:53.090 [INFO ]   booting 201s: adb not listed, qemu 0 MB resident
+17:57:53.091 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:58:03.198 [INFO ]   booting 211s: adb not listed, qemu 0 MB resident
+17:58:03.200 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:58:04.427 [INFO ] host while booting: cpu 54% | RAM free 21203 MB | D: free 515.8 GB | emulators up 0
+17:58:04.429 [INFO ]   committed 18192 MB of 64577 MB
+17:58:12.945 [INFO ]   booting 221s: adb not listed, qemu 0 MB resident
+17:58:12.947 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:58:23.096 [INFO ]   booting 231s: adb not listed, qemu 0 MB resident
+17:58:23.098 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:58:33.268 [INFO ]   booting 241s: adb not listed, qemu 0 MB resident
+17:58:33.270 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:58:34.509 [INFO ] host while booting: cpu 49% | RAM free 21247 MB | D: free 515.8 GB | emulators up 0
+17:58:34.510 [INFO ]   committed 18131 MB of 64577 MB
+17:58:42.958 [INFO ]   booting 251s: adb not listed, qemu 0 MB resident
+17:58:42.960 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:58:53.120 [INFO ]   booting 261s: adb not listed, qemu 0 MB resident
+17:58:53.122 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:59:03.284 [INFO ]   booting 271s: adb not listed, qemu 0 MB resident
+17:59:03.287 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:59:04.526 [INFO ] host while booting: cpu 59% | RAM free 21011 MB | D: free 515.8 GB | emulators up 0
+17:59:04.528 [INFO ]   committed 18503 MB of 64577 MB
+17:59:13.069 [INFO ]   booting 281s: adb not listed, qemu 0 MB resident
+17:59:13.069 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:59:23.205 [INFO ]   booting 291s: adb not listed, qemu 0 MB resident
+17:59:23.207 [WARN ]   no qemu process for this AVD - it died after opening the port
+17:59:32.419 [WARN ] ---- diagnosis ---------------------------------------------------
+17:59:33.658 [INFO ] host at failure: cpu 46% | RAM free 20947 MB | D: free 515.8 GB | emulators up 0
+17:59:33.660 [INFO ]   committed 18485 MB of 64577 MB
+17:59:33.698 [WARN ] 360 Total Security is running (QHActiveDefense, QHSafeTray). It hooks qemu file I/O - whitelist D:\Android\Sdk and D:\Android\avd if boots stall.
+17:59:35.027 [INFO ] physicaldisk(_total)\current disk queue length = 0.00
+17:59:35.029 [INFO ] physicaldisk(_total)\avg. disk sec/read = 0.00
+17:59:35.031 [INFO ] memory\pages input/sec = 55.35
+17:59:35.033 [INFO ] memory\available mbytes = 20,842.00
+17:59:35.037 [WARN ] the guests are paging their own RAM off the disk. Boot without -FileBackedRam (the default now) so guest RAM stays in host memory.
+17:59:35.054 [WARN ] known problems in 3794xa-emulator.log :
+17:59:35.055 [WARN ]   * Failed to load opengl32sw
+17:59:35.056 [WARN ]       -> the software OpenGL fallback DLL is missing from the emulator install.
+17:59:35.057 [WARN ]   * UpdateLayeredWindowIndirect failed
+17:59:35.058 [WARN ]       -> the host renderer is wedged. This is the black window; adb stays at "offline" forever.
+17:59:35.058 [INFO ] last 25 lines of 3794xa-emulator.log :
+17:59:35.067 [INFO ]   | INFO         |      Ok: System requirements to run avd: `3794xa` are met
+17:59:35.069 [INFO ]   | INFO         |   Checking: hasSufficientHwGpu
+17:59:35.069 [INFO ]   | INFO         |      Ok: Hardware GPU requirements to run avd: `3794xa` are passed
+17:59:35.070 [INFO ]   | INFO         |   Checking: hasSufficientDiskSpace
+17:59:35.071 [INFO ]   | INFO         |      Ok: Disk space requirements to run avd: `3794xa` are met
+17:59:35.072 [INFO ]   | INFO         | emulatorSetupEnvironment: Environment scene is not required
+17:59:35.072 [INFO ]   | USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+17:59:35.073 [INFO ]   | INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+17:59:35.074 [INFO ]   | INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+17:59:35.075 [INFO ]   | INFO         | TouchpadHolder: registering via hw_xr_led agent for instance=00000279E5A1DB40
+17:59:35.076 [INFO ]   | INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+17:59:35.077 [INFO ]   | (Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+17:59:35.078 [INFO ]   | INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=0
+17:59:35.079 [INFO ]   | INFO         | Platform does not support Guest Angle
+17:59:35.080 [INFO ]   | INFO         | Created extended window in 648.941ms
+17:59:35.082 [INFO ]   | INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(1295, 41), size=(450x32), dirty=(450x33 0, 0) (A device attached to the system is not functioning.) (:0, )
+17:59:35.083 [INFO ]   | INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(1295, 41), size=(450x32), dirty=(450x33 0, 0) (A device attached to the system is not functioning.) (:0, )
+17:59:35.085 [INFO ]   | INFO         | Wait for emulator (pid 23688) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+17:59:35.086 [INFO ]   | USER_INFO    | Snapshots have been disabled by the user, save request is ignored.
+17:59:35.087 [INFO ]   | INFO         | Saving snapshot 'default_boot' using 0 ms
+17:59:35.090 [INFO ]   | INFO         | Wait for emulator (pid 23688) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+17:59:35.092 [INFO ]   | WARNING      | Emulator client has not yet been configured.. Call configure me first!
+17:59:35.093 [INFO ]   | INFO         | removeAll
+17:59:35.095 [INFO ] no known failure signature in 3794xa-emulator.err.log
+17:59:35.095 [INFO ] last 25 lines of 3794xa-emulator.err.log :
+17:59:35.098 [INFO ]   | dsound: Could not initialize DirectSoundCapture
+17:59:35.099 [INFO ]   | dsound: Reason: No sound driver is available for use, or the given GUID is not a valid DirectSound device ID
+17:59:35.101 [WARN ] full log: C:\Users\user\Downloads\andriod sum\logs\3794xa.log
+17:59:35.102 [WARN ] -----------------------------------------------------------------
+17:59:35.107 [ERROR] FATAL: 3794xa did not finish booting in 300s (gpu host). If the window is black and `adb devices` says offline, the renderer is the cause: retry with -Gpu swangle -Cold.
+17:59:35.112 [ERROR]   atAt C:\Users\user\Downloads\andriod sum\android.ps1:1470 char:9 +         throw ("$Name did not finish booting in 300s (gpu $Gpu). If t ... +         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+17:59:35.115 [WARN ] ---- diagnosis ---------------------------------------------------
+17:59:36.332 [INFO ] host at failure: cpu 51% | RAM free 20835 MB | D: free 515.8 GB | emulators up 0
+17:59:36.334 [INFO ]   committed 18766 MB of 64577 MB
+17:59:36.357 [WARN ] 360 Total Security is running (QHActiveDefense, QHSafeTray). It hooks qemu file I/O - whitelist D:\Android\Sdk and D:\Android\avd if boots stall.
+17:59:37.373 [INFO ] physicaldisk(_total)\current disk queue length = 0.00
+17:59:37.375 [INFO ] physicaldisk(_total)\avg. disk sec/read = 0.00
+17:59:37.376 [INFO ] memory\pages input/sec = 0.00
+17:59:37.377 [INFO ] memory\available mbytes = 20,760.00
+17:59:37.384 [WARN ] known problems in 3794xa-emulator.log :
+17:59:37.385 [WARN ]   * Failed to load opengl32sw
+17:59:37.387 [WARN ]       -> the software OpenGL fallback DLL is missing from the emulator install.
+17:59:37.388 [WARN ]   * UpdateLayeredWindowIndirect failed
+17:59:37.391 [WARN ]       -> the host renderer is wedged. This is the black window; adb stays at "offline" forever.
+17:59:37.392 [INFO ] last 25 lines of 3794xa-emulator.log :
+17:59:37.395 [INFO ]   | INFO         |      Ok: System requirements to run avd: `3794xa` are met
+17:59:37.396 [INFO ]   | INFO         |   Checking: hasSufficientHwGpu
+17:59:37.397 [INFO ]   | INFO         |      Ok: Hardware GPU requirements to run avd: `3794xa` are passed
+17:59:37.397 [INFO ]   | INFO         |   Checking: hasSufficientDiskSpace
+17:59:37.398 [INFO ]   | INFO         |      Ok: Disk space requirements to run avd: `3794xa` are met
+17:59:37.399 [INFO ]   | INFO         | emulatorSetupEnvironment: Environment scene is not required
+17:59:37.400 [INFO ]   | USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+17:59:37.400 [INFO ]   | INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+17:59:37.402 [INFO ]   | INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+17:59:37.404 [INFO ]   | INFO         | TouchpadHolder: registering via hw_xr_led agent for instance=00000279E5A1DB40
+17:59:37.405 [INFO ]   | INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+17:59:37.407 [INFO ]   | (Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+17:59:37.408 [INFO ]   | INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=0
+17:59:37.409 [INFO ]   | INFO         | Platform does not support Guest Angle
+17:59:37.410 [INFO ]   | INFO         | Created extended window in 648.941ms
+17:59:37.411 [INFO ]   | INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(1295, 41), size=(450x32), dirty=(450x33 0, 0) (A device attached to the system is not functioning.) (:0, )
+17:59:37.412 [INFO ]   | INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(1295, 41), size=(450x32), dirty=(450x33 0, 0) (A device attached to the system is not functioning.) (:0, )
+17:59:37.414 [INFO ]   | INFO         | Wait for emulator (pid 23688) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+17:59:37.416 [INFO ]   | USER_INFO    | Snapshots have been disabled by the user, save request is ignored.
+17:59:37.417 [INFO ]   | INFO         | Saving snapshot 'default_boot' using 0 ms
+17:59:37.419 [INFO ]   | INFO         | Wait for emulator (pid 23688) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+17:59:37.421 [INFO ]   | WARNING      | Emulator client has not yet been configured.. Call configure me first!
+17:59:37.422 [INFO ]   | INFO         | removeAll
+17:59:37.426 [INFO ] no known failure signature in 3794xa-emulator.err.log
+17:59:37.428 [INFO ] last 25 lines of 3794xa-emulator.err.log :
+17:59:37.431 [INFO ]   | dsound: Could not initialize DirectSoundCapture
+17:59:37.433 [INFO ]   | dsound: Reason: No sound driver is available for use, or the given GUID is not a valid DirectSound device ID
+17:59:37.434 [WARN ] full log: C:\Users\user\Downloads\andriod sum\logs\3794xa.log
+17:59:37.436 [WARN ] -----------------------------------------------------------------
+**********************
+Windows PowerShell transcript end
+End time: 20260826175937
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826185253
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 14632
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+18:52:53.184 [INFO ] === 3794xa : -Name 3794xa
+18:52:55.235 [INFO ] host before boot: cpu 85% | RAM free 16577 MB | D: free 515.8 GB | emulators up 0
+18:52:55.243 [INFO ]   committed 22373 MB of 64577 MB
+18:52:55.272 [WARN ] another instance is booting - queued (the disk can only resume one at a time)
+18:53:25.414 [INFO ]   still queued, 30s
+18:53:27.577 [INFO ] gate free after 32s queued
+18:53:27.583 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+18:53:27.585 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+18:53:29.365 [OK   ] console port 5558 answered after 1.8s
+18:53:39.880 [INFO ]   booting 11s: adb not listed, qemu 0 MB resident
+18:53:42.012 [WARN ] 3794xa stopped while booting - its emulator process is gone after 13s
+18:53:42.015 [INFO ] boot gate released - the next queued instance can start
+18:53:42.045 [OK   ] it was shut down on request, not a boot failure - start it again when you want it
+**********************
+Windows PowerShell transcript end
+End time: 20260826185342
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826185518
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 18928
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+18:55:18.605 [INFO ] === 3794xa : -Name 3794xa
+18:55:20.413 [INFO ] host before boot: cpu 66% | RAM free 17672 MB | D: free 515.8 GB | emulators up 0
+18:55:20.418 [INFO ]   committed 21235 MB of 64577 MB
+18:55:20.455 [WARN ] another instance is booting - queued (the disk can only resume one at a time)
+18:55:47.506 [INFO ] gate free after 27s queued
+18:55:47.510 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+18:55:47.512 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+18:55:48.729 [OK   ] console port 5558 answered after 1.2s
+18:55:59.020 [INFO ]   booting 10s: adb offline, qemu 413 MB resident
+18:56:09.431 [INFO ]   booting 21s: adb device, qemu 1101 MB resident
+18:56:17.502 [OK   ] ready in 28.8s
+18:56:17.505 [INFO ] boot gate released - the next queued instance can start
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+18:56:18.427 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+18:56:18.428 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826185618
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827001503
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 18488
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:15:03.639 [INFO ] === 3794xa : -Name 3794xa
+00:15:05.581 [INFO ] host before boot: cpu 59% | RAM free 17659 MB | D: free 515 GB | emulators up 1
+00:15:05.586 [INFO ]   committed 28326 MB of 64577 MB
+00:15:05.618 [WARN ] another instance is booting - queued (the disk can only resume one at a time)
+00:15:30.218 [INFO ] gate free after 25s queued
+00:15:30.223 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+00:15:30.225 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+00:15:31.958 [OK   ] console port 5558 answered after 1.7s
+**********************
+Windows PowerShell transcript start
+Start time: 20260827001547
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 30056
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:15:47.580 [INFO ] === 3794xa : -Name 3794xa
+00:15:51.523 [INFO ] host before boot: cpu 49% | RAM free 17830 MB | D: free 515 GB | emulators up 0
+00:15:51.528 [INFO ]   committed 25992 MB of 64577 MB
+00:15:51.554 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+00:15:51.555 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+00:15:52.689 [OK   ] console port 5558 answered after 1.1s
+00:16:02.983 [INFO ]   booting 10s: adb offline, qemu 412 MB resident
+00:16:13.294 [INFO ]   booting 21s: adb device, qemu 941 MB resident
+00:16:22.968 [OK   ] ready in 30.3s
+00:16:22.971 [INFO ] boot gate released - the next queued instance can start
+00:16:23.051 [INFO ] clipboard bridge started (Ctrl+C / Ctrl+V inside the emulator window)
+WhatsApp not installed yet - sign in to the Play Store in the emulator window and install it
+00:16:23.744 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+00:16:23.746 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827001623
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827002229
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Apk C:\Users\user\Downloads\WhatsApp.apk
+Process ID: 29032
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:22:29.228 [INFO ] === 3794xa : -Name 3794xa -Apk C:\Users\user\Downloads\WhatsApp.apk
+3794xa already running on emulator-5558
+00:22:29.548 [OK   ] ready in 0.0s
+00:22:29.675 [INFO ] installing WhatsApp.apk (135.8 MB) into 3794xa
+00:22:57.173 [OK   ] installed into 3794xa in 27s
+00:22:57.612 [INFO ]   third-party packages now: com.whatsapp
+**********************
+Windows PowerShell transcript end
+End time: 20260827002257
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827002251
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa -Apk C:\Users\user\Downloads\WhatsApp.apk
+Process ID: 32412
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:22:51.412 [INFO ] === 3794xa : -Name 3794xa -Apk C:\Users\user\Downloads\WhatsApp.apk
+3794xa already running on emulator-5558
+00:22:51.735 [OK   ] ready in 0.1s
+00:22:51.899 [INFO ] installing WhatsApp.apk (135.8 MB) into 3794xa
+00:23:31.635 [OK   ] installed into 3794xa in 40s
+00:23:32.250 [INFO ]   third-party packages now: com.whatsapp
+**********************
+Windows PowerShell transcript end
+End time: 20260827002332
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827004325
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 26240
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:43:25.258 [INFO ] === 3794xa : -Name 3794xa
+00:43:29.188 [INFO ] host before boot: cpu 63% | RAM free 14333 MB | D: free 514.2 GB | emulators up 0
+00:43:29.195 [INFO ]   committed 29874 MB of 64577 MB
+00:43:29.220 [WARN ] another instance is booting - queued (the disk can only resume one at a time)
+00:43:59.355 [INFO ]   still queued, 30s
+00:44:14.134 [INFO ] gate free after 45s queued
+00:44:14.139 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+00:44:14.141 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+00:44:15.881 [OK   ] console port 5558 answered after 1.7s
+00:44:26.193 [INFO ]   booting 10s: adb offline, qemu 382 MB resident
+00:44:36.454 [INFO ]   booting 21s: adb offline, qemu 479 MB resident
+00:44:46.954 [INFO ]   booting 31s: adb device, qemu 1296 MB resident
+00:44:48.282 [INFO ] host while booting: cpu 65% | RAM free 10403 MB | D: free 514.2 GB | emulators up 2
+00:44:48.284 [INFO ]   committed 35659 MB of 64577 MB
+00:44:51.893 [OK   ] ready in 36.0s
+00:44:51.896 [INFO ] boot gate released - the next queued instance can start
+launched com.whatsapp
+00:44:55.058 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+00:44:55.059 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827004455
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827005352
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 3794xa
+Process ID: 19012
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:53:52.052 [INFO ] === 3794xa : -Name 3794xa
+00:53:54.216 [INFO ] host before boot: cpu 51% | RAM free 11843 MB | D: free 514.2 GB | emulators up 0
+00:53:54.221 [INFO ]   committed 34741 MB of 64577 MB
+00:53:54.253 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+00:53:54.255 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+00:53:55.438 [OK   ] console port 5558 answered after 1.2s
+00:54:05.754 [INFO ]   booting 10s: adb offline, qemu 410 MB resident
+00:54:16.183 [INFO ]   booting 21s: adb device, qemu 1150 MB resident
+00:54:22.546 [OK   ] ready in 27.1s
+00:54:22.549 [INFO ] boot gate released - the next queued instance can start
+00:54:22.608 [INFO ] clipboard bridge started (Ctrl+C / Ctrl+V inside the emulator window)
+launched com.whatsapp
+00:54:24.949 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+00:54:24.951 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827005424
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827154152
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & "C:\Users\user\Downloads\andriod sum\android.ps1" -Name 3794xa
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-17c0' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 34388
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:41:52.294 [INFO ] === 3794xa : -Name 3794xa
+15:41:54.264 [INFO ] host before boot: cpu 14% | RAM free 19518 MB | D: free 492.7 GB | emulators up 0
+15:41:54.269 [INFO ]   committed 34714 MB of 64577 MB
+15:41:54.296 [INFO ] booting 3794xa on port 5558 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+15:41:54.298 [INFO ]   emulator.exe -avd 3794xa -port 5558 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Baghdad -phone-number 9647515404553 -camera-back imagefile:C:\Users\user\AppData\Local\avd-screencam\camera.png -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+15:41:55.978 [OK   ] console port 5558 answered after 1.7s
+15:42:06.624 [INFO ]   booting 11s: adb offline, qemu 67 MB resident
+15:42:16.971 [INFO ]   booting 21s: adb offline, qemu 192 MB resident
+15:42:26.828 [INFO ]   booting 31s: adb device, qemu 305 MB resident
+15:42:28.177 [INFO ] host while booting: cpu 34% | RAM free 16861 MB | D: free 492.7 GB | emulators up 1
+15:42:28.178 [INFO ]   committed 37899 MB of 64577 MB
+15:42:32.066 [OK   ] ready in 36.1s
+15:42:32.072 [INFO ] boot gate released - the next queued instance can start
+15:42:32.138 [INFO ] clipboard bridge started (Ctrl+C / Ctrl+V inside the emulator window)
+15:42:32.194 [INFO ] screen camera feeder started (the guest camera shows the picked screen region)
+launched com.whatsapp
+15:42:35.481 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+15:42:35.483 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+**********************
+Windows PowerShell transcript end
+End time: 20260827154235
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827154316
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & "C:\Users\user\Downloads\andriod sum\android.ps1" -Name 3794xa -ResetApp -Force
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-30c9' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 31196
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:43:16.674 [INFO ] === 3794xa : -Name 3794xa -ResetApp True -Force True
+3794xa already running on emulator-5558
+15:43:17.029 [OK   ] ready in 0.1s
+15:43:21.947 [INFO ] com.whatsapp data wiped - it starts at the language/EULA screen and has to sign in again
+launched com.whatsapp
+15:43:24.373 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+15:43:24.374 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+**********************
+Windows PowerShell transcript end
+End time: 20260827154324
+**********************

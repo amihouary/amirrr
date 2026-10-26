@@ -1,0 +1,760 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260826170518
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command & 'C:\Users\user\Downloads\andriod sum\android.ps1' -ClipboardBridge -Check
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-e1c3' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 26404
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:05:18.883 [INFO ] === _clipboard : -ClipboardBridge True -Check True
+== clipboard bridge self-check ==
+  class compiled : True
+  device windows : 2  (from Get-EmulatorWindows)
+  mapped windows : 8  (device windows plus their toolbars)
+  OK   3794xa       hwnd=0x29150C expected emulator-5558, bridge says emulator-5558
+  OK   wa01         hwnd=0x16141A expected emulator-5554, bridge says emulator-5554
+  0 failure(s)
+**********************
+Windows PowerShell transcript end
+End time: 20260826170519
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826170638
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command $e=$null
+foreach ($f in @('common.ps1','android.ps1','manager.ps1')) {
+  $p = "C:\Users\user\Downloads\andriod sum\$f"
+  $t = [System.Management.Automation.PSParser]::Tokenize((Get-Content -Raw $p), [ref]$e)
+  "{0,-12} errors={1}" -f $f, $e.Count
+  $e | ForEach-Object { "   {0} (line {1})" -f $_.Message, $_.Token.StartLine }
+}
+"== self-check again =="
+& 'C:\Users\user\Downloads\andriod sum\android.ps1' -ClipboardBridge -Check
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-4a4e' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 25836
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:06:38.061 [INFO ] === _clipboard : -ClipboardBridge True -Check True
+== clipboard bridge self-check ==
+  class compiled : True
+  device windows : 2  (from Get-EmulatorWindows)
+  mapped windows : 8  (device windows plus their toolbars)
+  OK   3794xa       hwnd=0x29150C expected emulator-5558, bridge says emulator-5558
+  OK   wa01         hwnd=0x16141A expected emulator-5554, bridge says emulator-5554
+  0 failure(s)
+**********************
+Windows PowerShell transcript end
+End time: 20260826170638
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826185328
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 24388
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+18:53:28.531 [INFO ] === _clipboard : -ClipboardBridge True
+18:53:28.988 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+18:53:28.990 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+18:53:50.324 [INFO ]   no emulator window left for 5s - stopping
+18:53:50.326 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826185350
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826185548
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 13768
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+18:55:48.174 [INFO ] === _clipboard : -ClipboardBridge True
+18:55:48.493 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+18:55:48.495 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+18:56:41.555 [INFO ]   copy emulator-5558 in 2609 ms
+18:56:42.582 [INFO ]   copy emulator-5558 in 1406 ms
+**********************
+Windows PowerShell transcript start
+Start time: 20260826231553
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 32468
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:15:53.758 [INFO ] === _clipboard : -ClipboardBridge True
+23:15:54.472 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+23:15:54.480 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+23:37:22.830 [INFO ]   no emulator window left for 5s - stopping
+23:37:22.832 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260826233722
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826233837
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 21688
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:38:37.550 [INFO ] === _clipboard : -ClipboardBridge True
+23:38:38.232 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+23:38:38.243 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+00:14:35.650 [INFO ]   no emulator window left for 5s - stopping
+00:14:35.653 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827001435
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827001530
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 16992
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:15:30.872 [INFO ] === _clipboard : -ClipboardBridge True
+00:15:31.212 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+00:15:31.215 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+**********************
+Windows PowerShell transcript start
+Start time: 20260827001623
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 34952
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:16:23.674 [INFO ] === _clipboard : -ClipboardBridge True
+00:16:24.005 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+00:16:24.007 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+00:18:00.197 [INFO ]   paste emulator-5558 in 1843 ms
+00:18:08.794 [INFO ]   paste emulator-5558 in 609 ms
+00:18:10.818 [INFO ]   paste emulator-5558 in 641 ms
+00:18:13.853 [INFO ]   paste emulator-5558 in 625 ms
+00:18:28.034 [INFO ]   paste emulator-5558 in 750 ms
+00:18:34.613 [INFO ]   paste emulator-5554 in 969 ms
+00:18:37.148 [INFO ]   paste emulator-5558 in 984 ms
+**********************
+Windows PowerShell transcript start
+Start time: 20260827004414
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 24568
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:44:14.810 [INFO ] === _clipboard : -ClipboardBridge True
+00:44:15.293 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+00:44:15.296 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+**********************
+Windows PowerShell transcript start
+Start time: 20260827005423
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 4188
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+00:54:23.199 [INFO ] === _clipboard : -ClipboardBridge True
+00:54:23.561 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+00:54:23.563 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+01:55:05.258 [INFO ]   no emulator window left for 5s - stopping
+01:55:05.263 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827015505
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827145210
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 29232
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+14:52:10.444 [INFO ] === _clipboard : -ClipboardBridge True
+14:52:10.869 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+14:52:10.871 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+15:08:10.196 [INFO ]   no emulator window left for 5s - stopping
+15:08:10.213 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827150810
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827151234
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 31428
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:12:34.902 [INFO ] === _clipboard : -ClipboardBridge True
+15:12:35.293 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+15:12:35.296 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+15:18:08.774 [INFO ]   no emulator window left for 5s - stopping
+15:18:08.779 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827151808
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827152423
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 29308
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:24:23.111 [INFO ] === _clipboard : -ClipboardBridge True
+15:24:23.550 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+15:24:23.553 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+15:25:36.734 [INFO ]   no emulator window left for 5s - stopping
+15:25:36.738 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827152536
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827154232
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 27428
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:42:33.001 [INFO ] === _clipboard : -ClipboardBridge True
+15:42:33.512 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+15:42:33.571 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+15:54:29.682 [INFO ]   no emulator window left for 5s - stopping
+15:54:29.699 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827155429
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827155722
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 18720
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+15:57:22.574 [INFO ] === _clipboard : -ClipboardBridge True
+15:57:23.216 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+15:57:23.219 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+16:11:25.285 [INFO ]   no emulator window left for 5s - stopping
+16:11:25.287 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827161125
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827162448
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 3756
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:24:48.577 [INFO ] === _clipboard : -ClipboardBridge True
+16:24:49.916 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+16:24:49.918 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+16:25:47.245 [INFO ]   paste emulator-5568 in 2234 ms
+16:25:48.756 [INFO ]   paste emulator-5568 in 1141 ms
+16:26:14.598 [INFO ]   paste emulator-5568 in 4891 ms
+16:26:15.621 [INFO ]   paste emulator-5568 in 1000 ms
+16:26:17.146 [INFO ]   paste emulator-5568 in 1563 ms
+16:26:17.663 [INFO ]   paste emulator-5568 in 687 ms
+16:26:25.762 [INFO ]   paste emulator-5568 in 968 ms
+16:37:12.832 [INFO ]   no emulator window left for 5s - stopping
+16:37:12.832 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827163712
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827164659
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 2684
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:46:59.902 [INFO ] === _clipboard : -ClipboardBridge True
+16:47:00.382 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+16:47:00.384 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+16:47:29.909 [INFO ]   no emulator window left for 5s - stopping
+16:47:29.911 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827164729
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827164942
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 20904
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:49:42.263 [INFO ] === _clipboard : -ClipboardBridge True
+16:49:42.791 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+16:49:42.793 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+17:08:05.922 [INFO ]   no emulator window left for 5s - stopping
+17:08:05.929 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827170805
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827171026
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 33544
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:10:26.572 [INFO ] === _clipboard : -ClipboardBridge True
+17:10:26.946 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+17:10:26.949 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+17:25:38.772 [INFO ]   paste emulator-5572 in 1438 ms
+17:26:06.642 [INFO ]   paste emulator-5572 in 719 ms
+17:27:39.214 [INFO ]   no emulator window left for 5s - stopping
+17:27:39.215 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827172739
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827185221
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 5828
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+18:52:21.892 [INFO ] === _clipboard : -ClipboardBridge True
+18:52:22.165 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+18:52:22.167 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+18:58:04.390 [INFO ]   no emulator window left for 5s - stopping
+18:58:04.398 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827185804
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827190426
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 17816
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+19:04:26.611 [INFO ] === _clipboard : -ClipboardBridge True
+19:04:26.879 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+19:04:26.881 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+19:27:19.570 [INFO ]   no emulator window left for 5s - stopping
+19:27:19.570 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827192719
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260911100236
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 11884
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+10:02:36.267 [INFO ] === _clipboard : -ClipboardBridge True
+10:02:36.709 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+10:02:36.714 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+10:21:22.521 [INFO ]   paste emulator-5572 in 1031 ms
+10:21:25.046 [INFO ]   paste emulator-5572 in 625 ms
+10:21:46.295 [INFO ]   paste emulator-5572 in 625 ms
+10:21:47.304 [INFO ]   paste emulator-5572 in 594 ms
+10:52:33.284 [INFO ]   no emulator window left for 5s - stopping
+10:52:33.287 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260911105233
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260916130515
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 2392
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:05:15.154 [INFO ] === _clipboard : -ClipboardBridge True
+13:05:15.472 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+13:05:15.474 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+13:12:52.999 [INFO ]   no emulator window left for 5s - stopping
+13:12:52.999 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260916131253
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260916131333
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 18688
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:13:33.783 [INFO ] === _clipboard : -ClipboardBridge True
+13:13:34.055 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+13:13:34.056 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+13:21:00.398 [INFO ]   no emulator window left for 5s - stopping
+13:21:00.403 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260916132100
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260916132222
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 10788
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+13:22:22.871 [INFO ] === _clipboard : -ClipboardBridge True
+13:22:23.140 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+13:22:23.142 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+13:33:28.028 [INFO ]   no emulator window left for 5s - stopping
+13:33:28.032 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260916133328
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260926170000
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -ClipboardBridge
+Process ID: 29224
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:00:00.187 [INFO ] === _clipboard : -ClipboardBridge True
+17:00:06.796 [OK   ] clipboard bridge up - Ctrl+C / Ctrl+V / Ctrl+X now reach the guest (3 emulator window(s) mapped)
+17:00:06.799 [INFO ]   the clipboard itself is the emulator's own sharing; this only supplies the keystroke
+17:12:02.932 [INFO ]   no emulator window left for 5s - stopping
+17:12:02.935 [INFO ] clipboard bridge stopped
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260926171202
+**********************

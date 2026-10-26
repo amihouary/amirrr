@@ -1,0 +1,107 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825230717
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -Requirements
+Process ID: 13412
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:07:17.074 [INFO ] === requirements (settings: C:\Users\user\Downloads\andriod sum\settings.ini) ===
+23:07:17.095 [INFO ]   SdkRoot  D:\Android\Sdk
+23:07:17.096 [INFO ]   JdkRoot  D:\jdk\jdk-17.0.19+10
+23:07:17.096 [INFO ]   AvdHome  D:\Android\avd
+23:07:17.097 [INFO ]   Image    system-images;android-30;google_apis_playstore;x86_64
+23:07:17.967 [OK   ]   Java (JDK)         ok       D:\jdk\jdk-17.0.19+10\bin\java.exe
+23:07:17.969 [OK   ]   Android SDK        ok       D:\Android\Sdk
+23:07:17.971 [OK   ]   sdkmanager         ok       D:\Android\Sdk\cmdline-tools\latest\bin\sdkmanager.bat
+23:07:17.972 [OK   ]   adb                ok       D:\Android\Sdk\platform-tools\adb.exe
+23:07:17.972 [OK   ]   emulator           ok       D:\Android\Sdk\emulator\emulator.exe
+23:07:17.973 [OK   ]   system image       ok       D:\Android\Sdk\system-images\android-30\google_apis_playstore\x86_64
+23:07:17.974 [OK   ]   instances folder   ok       D:\Android\avd - 3 instance(s)
+23:07:17.974 [OK   ]   free disk          ok       513.9 GB free on D: - room for about 128 more instance(s)
+23:07:17.975 [INFO ]       -> An instance costs 2.5-4.7 GB on disk, and a boot needs room to write. Under ~6 GB a boot fails half way through.
+23:07:17.975 [WARN ]   disk type          warn     D: is ST2000DM008-2FR102 - not a recognised SSD
+23:07:17.976 [INFO ]       -> If this is a spinning disk it is the ceiling of the whole project: guest RAM must never live on it (that was THE freeze), so snapshots stay off - which is the default. Moving AvdHome to an SSD is the biggest speed win left. Windows cannot tell SSD from HDD here (its Storage provider is broken on this box), so check the model yourself.
+23:07:17.976 [OK   ]   host RAM           ok       16.8 GB free of 31.8 GB, commit 53% - room for about 6 running instance(s)
+23:07:17.977 [INFO ]       -> A running instance costs ~3 GB of real RAM. Past ~85% commit Windows pages the guests out and they look frozen while the CPU sits idle.
+23:07:17.978 [OK   ]   CPU acceleration   ok       accel: 0 WHPX(10.0.19045) is installed and usable. accel
+23:07:17.979 [OK   ]   GPU driver         ok       Freedom Scientific Accessibility Display Driver driver 12.8.613.0
+23:07:17.979 [WARN ]   GPU driver         warn     NVIDIA GeForce RTX 2080 driver 457.51 (windows 27.21.14.5751)
+23:07:17.980 [INFO ]       -> The emulator wants 553.35+ for Vulkan; below that it drops the WHOLE renderer to the CPU (4x slower boot, crawling UI). Handled: every boot here passes -feature -Vulkan and uses OpenGL, which this driver runs fine. Do not pass -Vulkan until the driver is newer.
+23:07:17.981 [OK   ]   GPU driver         ok       Intel(R) UHD Graphics 630 driver 27.20.100.8854
+23:07:17.981 [WARN ]   antivirus          warn     QHActiveDefense, QHSafeTray
+23:07:17.982 [INFO ]       -> 360 hooks qemu's file I/O and also trims idle working sets. Whitelist D:\Android\Sdk and D:\Android\avd if boots stall.
+23:07:17.983 [OK   ]   running now        ok       1 emulator process(es) up
+23:07:17.983 [OK   ] 0 requirement(s) not met
+23:07:17.984 [INFO ] full report: C:\Users\user\Downloads\andriod sum\logs\_requirements.log
+**********************
+Windows PowerShell transcript end
+End time: 20260825230717
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260826162100
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command $ErrorActionPreference='Continue'
+Set-Location "C:\Users\user\Downloads\andriod sum"
+$out = & ".\android.ps1" -Requirements 2>&1 | Out-String
+($out -split "`r?`n" | Where-Object { $_ -match '\[(INFO|OK|WARN|ERROR)' } | Select-Object -First 8) -join "`n"
+'--- exit: ' + $LASTEXITCODE
+; $_ec = if ($null -ne $LASTEXITCODE) { $LASTEXITCODE } elseif ($?) { 0 } else { 1 }
+; (Get-Location).Path | Out-File -FilePath 'C:\Users\user\AppData\Local\Temp\claude\claude-pwd-ps-fe6e' -Encoding utf8 -NoNewline
+; if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') { $host.SetShouldExit($_ec) } else { exit $_ec }
+Process ID: 26760
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+16:21:00.805 [INFO ] === requirements (settings: C:\Users\user\Downloads\andriod sum\settings.ini) ===
+16:21:00.825 [INFO ]   SdkRoot  D:\Android\Sdk
+16:21:00.826 [INFO ]   JdkRoot  D:\jdk\jdk-17.0.19+10
+16:21:00.827 [INFO ]   AvdHome  D:\Android\avd
+16:21:00.828 [INFO ]   Image    system-images;android-30;google_apis_playstore;x86_64
+16:21:01.487 [OK   ]   Java (JDK)         ok       D:\jdk\jdk-17.0.19+10\bin\java.exe
+16:21:01.490 [OK   ]   Android SDK        ok       D:\Android\Sdk
+16:21:01.491 [OK   ]   sdkmanager         ok       D:\Android\Sdk\cmdline-tools\latest\bin\sdkmanager.bat
+16:21:01.492 [OK   ]   adb                ok       D:\Android\Sdk\platform-tools\adb.exe
+16:21:01.493 [OK   ]   emulator           ok       D:\Android\Sdk\emulator\emulator.exe
+16:21:01.494 [OK   ]   system image       ok       D:\Android\Sdk\system-images\android-30\google_apis_playstore\x86_64
+16:21:01.495 [OK   ]   instances folder   ok       D:\Android\avd - 2 instance(s)
+16:21:01.496 [OK   ]   free disk          ok       515.9 GB free on D: - room for about 129 more instance(s)
+16:21:01.496 [INFO ]       -> An instance costs 2.5-4.7 GB on disk, and a boot needs room to write. Under ~6 GB a boot fails half way through.
+16:21:01.497 [WARN ]   disk type          warn     D: is ST2000DM008-2FR102 - not a recognised SSD
+16:21:01.498 [INFO ]       -> If this is a spinning disk it is the ceiling of the whole project: guest RAM must never live on it (that was THE freeze), so snapshots stay off - which is the default. Moving AvdHome to an SSD is the biggest speed win left. Windows cannot tell SSD from HDD here (its Storage provider is broken on this box), so check the model yourself.
+16:21:01.499 [OK   ]   host RAM           ok       16.8 GB free of 31.8 GB, commit 39% - room for about 6 running instance(s)
+16:21:01.500 [INFO ]       -> A running instance costs ~3 GB of real RAM. Past ~85% commit Windows pages the guests out and they look frozen while the CPU sits idle.
+16:21:01.500 [OK   ]   CPU acceleration   ok       accel: 0 WHPX(10.0.19045) is installed and usable. accel
+16:21:01.501 [OK   ]   GPU driver         ok       Freedom Scientific Accessibility Display Driver driver 12.8.613.0
+16:21:01.502 [WARN ]   GPU driver         warn     NVIDIA GeForce RTX 2080 driver 457.51 (windows 27.21.14.5751)
+16:21:01.503 [INFO ]       -> The emulator wants 553.35+ for Vulkan; below that it drops the WHOLE renderer to the CPU (4x slower boot, crawling UI). Handled: every boot here passes -feature -Vulkan and uses OpenGL, which this driver runs fine. Do not pass -Vulkan until the driver is newer.
+16:21:01.504 [OK   ]   GPU driver         ok       Intel(R) UHD Graphics 630 driver 27.20.100.8854
+16:21:01.504 [WARN ]   antivirus          warn     QHActiveDefense, QHSafeTray
+16:21:01.505 [INFO ]       -> 360 hooks qemu's file I/O and also trims idle working sets. Whitelist D:\Android\Sdk and D:\Android\avd if boots stall.
+16:21:01.506 [OK   ]   running now        ok       2 emulator process(es) up
+16:21:01.507 [OK   ] 0 requirement(s) not met
+16:21:01.508 [INFO ] full report: C:\Users\user\Downloads\andriod sum\logs\_requirements.log
+**********************
+Windows PowerShell transcript end
+End time: 20260826162101
+**********************

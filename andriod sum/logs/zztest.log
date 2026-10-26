@@ -1,0 +1,87 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260825230802
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -New zztest -Ram 2560 -Cores 2 -Device Tecno Spark 7 -Region 971-502
+Process ID: 27460
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:08:02.795 [INFO ] === zztest : -New zztest -Ram 2560 -Cores 2 -Device Tecno Spark 7 -Region 971-502
+== creating instance 'zztest' ==
+
+
+instance : zztest
+port     : 5560
+ram/cores: 2560 MB / 2
+profile  : Tecno Spark 7 504x896@240 | +9715024485981 | Asia/Dubai | en-AE
+launcher : C:\Users\user\Downloads\andriod sum\run-zztest.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825230808
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825230820
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -Name zztest -Identity -Ram 2048 -Cores 2 -Device Galaxy A51 -Phone +964 770 123 4567
+Process ID: 20940
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:08:20.287 [INFO ] === zztest : -Name zztest -Identity True -Ram 2048 -Cores 2 -Device Galaxy A51 -Phone +964 770 123 4567
+23:08:20.595 [OK   ] retuned zztest to 2048 MB / 2 cores, screen 540x960@240
+23:08:20.597 [INFO ] identity: Galaxy A51 | 9647701234567 | Asia/Dubai | en-AE
+23:08:20.600 [INFO ]   (edit D:\Android\avd\zztest.avd\identity.ini to change it; delete it to regenerate)
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825230820
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260825230830
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File android.ps1 -Name zztest -Delete -Force
+Process ID: 32320
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+23:08:30.080 [INFO ] === zztest : -Name zztest -Delete True -Force True
+deleted  : zztest
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260825230830
+**********************

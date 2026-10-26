@@ -1,0 +1,176 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827013312
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -New 4444wa03 -Ram 2048 -Cores 2
+Process ID: 31624
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:33:12.292 [INFO ] === 4444wa03 : -New 4444wa03 -Ram 2048 -Cores 2
+== creating instance '4444wa03' ==
+[=======================================] 100% Fetch remote repository...
+Auto-selecting single ABI x86_64
+
+instance : 4444wa03
+port     : 5564
+ram/cores: 2048 MB / 2
+profile  : Redmi Note 9 600x1024@240 | +9655012771642 | Asia/Kuwait | en-KW
+launcher : C:\Users\user\Downloads\andriod sum\run-4444wa03.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827013314
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827013327
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 4444wa03
+Process ID: 18376
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:33:27.249 [INFO ] === 4444wa03 : -Name 4444wa03
+01:33:29.418 [INFO ] host before boot: cpu 62% | RAM free 15521 MB | D: free 512.2 GB | emulators up 1
+01:33:29.423 [INFO ]   committed 30471 MB of 64577 MB
+01:33:29.457 [INFO ] booting 4444wa03 on port 5564 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+01:33:29.459 [INFO ]   emulator.exe -avd 4444wa03 -port 5564 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Kuwait -phone-number 9655012771642 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+01:33:32.812 [OK   ] console port 5564 answered after 3.3s
+01:33:43.106 [INFO ]   booting 10s: adb offline, qemu 410 MB resident
+01:33:53.414 [INFO ]   booting 21s: adb offline, qemu 1394 MB resident
+01:34:03.738 [INFO ]   booting 31s: adb offline, qemu 2077 MB resident
+01:34:05.151 [INFO ] host while booting: cpu 90% | RAM free 13999 MB | D: free 511.8 GB | emulators up 2
+01:34:05.153 [INFO ]   committed 32076 MB of 64577 MB
+01:34:13.780 [INFO ]   booting 41s: adb offline, qemu 2344 MB resident
+01:34:21.587 [OK   ] ready in 48.8s
+01:34:21.591 [INFO ] boot gate released - the next queued instance can start
+01:34:24.370 [INFO ] animations off, wifi background scanning off (one-off)
+01:34:25.870 [INFO ] identity applied: Redmi Note 9 | 9655012771642 | Asia/Kuwait | en-KW
+01:34:27.000 [INFO ] com.whatsapp is missing - installing WhatsApp.apk
+01:36:35.810 [ERROR] install FAILED: Performing Streamed Install
+adb.exe: failed to install C:\Users\user\Downloads\WhatsApp.apk:
+WhatsApp not installed yet - put its .apk path in settings.ini (Apk = ...) and reboot this instance, or sign in to the Play Store in the emulator window
+01:36:35.843 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+01:36:35.844 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827013635
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827013737
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 4444wa03
+Process ID: 22324
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:37:37.227 [INFO ] === 4444wa03 : -Name 4444wa03
+01:37:39.339 [INFO ] host before boot: cpu 51% | RAM free 14802 MB | D: free 510.7 GB | emulators up 2
+01:37:39.350 [INFO ]   committed 30322 MB of 64577 MB
+01:37:39.381 [INFO ] booting 4444wa03 on port 5564 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+01:37:39.382 [INFO ]   emulator.exe -avd 4444wa03 -port 5564 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Kuwait -phone-number 9655012771642 -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+01:37:41.133 [OK   ] console port 5564 answered after 1.7s
+01:37:51.423 [INFO ]   booting 10s: adb offline, qemu 413 MB resident
+01:38:01.906 [INFO ]   booting 21s: adb device, qemu 1134 MB resident
+01:38:11.958 [INFO ]   booting 31s: adb device, qemu 1894 MB resident
+01:38:13.356 [INFO ] host while booting: cpu 91% | RAM free 12410 MB | D: free 510.7 GB | emulators up 3
+01:38:13.358 [INFO ]   committed 33368 MB of 64577 MB
+01:38:16.308 [OK   ] ready in 35.2s
+01:38:16.316 [INFO ] boot gate released - the next queued instance can start
+launched com.whatsapp
+01:38:20.986 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+01:38:20.988 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827013820
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827013816
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 4444wa03 -Apk C:\Users\user\Downloads\WhatsApp.apk
+Process ID: 9372
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:38:16.514 [INFO ] === 4444wa03 : -Name 4444wa03 -Apk C:\Users\user\Downloads\WhatsApp.apk
+4444wa03 already running on emulator-5564
+01:38:17.082 [OK   ] ready in 0.2s
+01:38:17.892 [INFO ] installing WhatsApp.apk (135.8 MB) into 4444wa03
+01:39:55.742 [OK   ] installed into 4444wa03 in 98s
+01:39:56.076 [INFO ]   third-party packages now: com.whatsapp
+**********************
+Windows PowerShell transcript end
+End time: 20260827013956
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827014055
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name 4444wa03 -Apk C:\Users\user\Downloads\WhatsApp.apk
+Process ID: 24344
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+01:40:55.859 [INFO ] === 4444wa03 : -Name 4444wa03 -Apk C:\Users\user\Downloads\WhatsApp.apk
+4444wa03 already running on emulator-5564
+01:40:56.175 [OK   ] ready in 0.1s
+01:40:56.304 [INFO ] installing WhatsApp.apk (135.8 MB) into 4444wa03
+01:41:26.062 [OK   ] installed into 4444wa03 in 30s
+01:41:26.386 [INFO ]   third-party packages now: com.whatsapp
+**********************
+Windows PowerShell transcript end
+End time: 20260827014126
+**********************

@@ -1,0 +1,163 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827172326
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -New wa03 -Ram 3072 -Cores 4 -Device Redmi Note 9 -Region 971-502 -Phone 971521759885
+Process ID: 18640
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:23:26.144 [INFO ] === wa03 : -New wa03 -Ram 3072 -Cores 4 -Device Redmi Note 9 -Region 971-502 -Phone 971521759885
+== creating instance 'wa03' ==
+[=======================================] 100% Fetch remote repository...
+Auto-selecting single ABI x86_64
+
+instance : wa03
+port     : 5572
+ram/cores: 3072 MB / 4
+profile  : Redmi Note 9 600x1024@240 | +971521759885 | Asia/Dubai | en-AE
+launcher : C:\Users\user\Downloads\andriod sum\run-wa03.bat
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827172327
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260827172349
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa03
+Process ID: 26796
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:23:49.115 [INFO ] === wa03 : -Name wa03
+17:23:50.866 [INFO ] host before boot: cpu 7% | RAM free 17837 MB | D: free 488.2 GB | emulators up 1
+17:23:50.871 [INFO ]   committed 21648 MB of 64577 MB
+17:23:50.897 [INFO ] booting wa03 on port 5572 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+17:23:50.899 [INFO ]   emulator.exe -avd wa03 -port 5572 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Dubai -phone-number 971521759885 -camera-back imagefile:C:\Users\user\AppData\Local\avd-screencam\camera.png -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+17:23:54.175 [OK   ] console port 5572 answered after 3.3s
+17:24:04.391 [INFO ]   booting 10s: adb offline, qemu 417 MB resident
+17:24:14.592 [INFO ]   booting 20s: adb offline, qemu 1482 MB resident
+17:24:24.799 [INFO ]   booting 31s: adb offline, qemu 2978 MB resident
+17:24:25.998 [INFO ] host while booting: cpu 65% | RAM free 14663 MB | D: free 487.9 GB | emulators up 2
+17:24:25.999 [INFO ]   committed 25339 MB of 64577 MB
+17:24:28.569 [OK   ] ready in 34.4s
+17:24:28.572 [INFO ] boot gate released - the next queued instance can start
+17:24:29.654 [INFO ] animations off, wifi background scanning off (one-off)
+17:24:30.484 [INFO ] identity applied: Redmi Note 9 | 971521759885 | Asia/Dubai | en-AE
+17:24:30.884 [INFO ] com.whatsapp is missing
+17:24:30.896 [INFO ] installing WhatsApp.apk (135.8 MB) into wa03
+17:26:23.588 [OK   ] installed into wa03 in 113s
+17:26:23.755 [INFO ]   third-party packages now: com.whatsapp
+launched com.whatsapp
+17:26:25.275 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+17:26:25.277 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827172625
+**********************
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827172352
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\andriod sum\android.ps1 -Name wa03
+Process ID: 16740
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+17:23:52.933 [INFO ] === wa03 : -Name wa03
+another launcher is already starting wa03 - waiting for it
+17:24:03.439 [INFO ]   booting 10s: adb offline, qemu 401 MB resident
+17:24:13.599 [INFO ]   booting 20s: adb offline, qemu 1441 MB resident
+17:24:23.769 [INFO ]   booting 31s: adb offline, qemu 2823 MB resident
+17:24:25.018 [INFO ] host while booting: cpu 42% | RAM free 14826 MB | D: free 487.9 GB | emulators up 2
+17:24:25.022 [INFO ]   committed 25304 MB of 64577 MB
+17:24:29.335 [OK   ] ready in 36.2s
+17:24:30.334 [INFO ] identity applied: Redmi Note 9 | 971521759885 | Asia/Dubai | en-AE
+17:24:30.762 [INFO ] com.whatsapp is missing
+17:24:30.787 [INFO ] installing WhatsApp.apk (135.8 MB) into wa03
+17:26:23.496 [OK   ] installed into wa03 in 113s
+17:26:23.566 [INFO ]   third-party packages now: com.whatsapp
+launched com.whatsapp
+17:26:24.970 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+17:26:24.971 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260827172624
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260911100137
+Username: DESKTOP-9EU9L15\user
+RunAs User: DESKTOP-9EU9L15\user
+Configuration Name: 
+Machine: DESKTOP-9EU9L15 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File C:\Users\user\Downloads\مشريعي\andriod sum\android.ps1 -Name wa03
+Process ID: 5692
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+10:01:37.207 [INFO ] === wa03 : -Name wa03
+10:01:38.990 [INFO ] host before boot: cpu 22% | RAM free 19320 MB | D: free 471.3 GB | emulators up 0
+10:01:39.005 [INFO ]   committed 16766 MB of 64577 MB
+10:01:39.034 [INFO ] booting wa03 on port 5572 - cold boot (no snapshot) (gpu host, features off: -Vulkan -QuickbootFileBacked, dns 8.8.8.8,1.1.1.1, ram 2048 MB)
+10:01:39.034 [INFO ]   emulator.exe -avd wa03 -port 5572 -dns-server 8.8.8.8,1.1.1.1 -gpu host -no-boot-anim -no-metrics -netdelay none -netspeed full -timezone Asia/Dubai -phone-number 971521759885 -camera-back imagefile:C:\Users\user\AppData\Local\avd-screencam\camera.png -feature -Vulkan,-QuickbootFileBacked -no-snapshot
+10:01:42.302 [OK   ] console port 5572 answered after 3.2s
+10:01:52.609 [INFO ]   booting 10s: adb offline, qemu 402 MB resident
+10:02:02.832 [INFO ]   booting 21s: adb offline, qemu 556 MB resident
+10:02:13.088 [INFO ]   booting 31s: adb device, qemu 1031 MB resident
+10:02:14.299 [INFO ] host while booting: cpu 5% | RAM free 18026 MB | D: free 471.3 GB | emulators up 1
+10:02:14.300 [INFO ]   committed 20580 MB of 64577 MB
+10:02:22.887 [INFO ]   booting 41s: adb device, qemu 1588 MB resident
+10:02:34.643 [INFO ]   booting 52s: adb device, qemu 2361 MB resident
+10:02:35.482 [OK   ] ready in 53.2s
+10:02:35.487 [INFO ] boot gate released - the next queued instance can start
+10:02:35.673 [INFO ] clipboard bridge started (Ctrl+C / Ctrl+V inside the emulator window)
+10:02:35.734 [INFO ] screen camera feeder started (the guest camera shows the picked screen region)
+10:02:36.404 [INFO ] close with the window X (or -Stop, or kill-all.bat) - that lets Android flush
+10:02:36.405 [INFO ] userdata. Killing it from Task Manager risks the WhatsApp session, not just speed.
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20260911100236
+**********************
